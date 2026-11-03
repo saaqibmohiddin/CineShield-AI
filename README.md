@@ -1,543 +1,284 @@
-"CineShield AI" (https://capsule-render.vercel.app/api?type=rect&height=190&color=0:080B16,45:252044,100:8B5CF6&text=CINESHIELD%20AI&fontColor=FFFFFF&fontSize=48&fontAlignY=42&desc=INTELLIGENT%20MOVIE%20INVESTIGATION%20%7C%20DIGITAL%20FORENSICS&descAlignY=70&descSize=13)
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:050509,35:17112B,70:4C1D95,100:8B5CF6&height=260&section=header&text=CINESHIELD%20AI&fontSize=68&fontColor=FFFFFF&fontAlignY=38&desc=INTELLIGENT%20MOVIE%20INVESTIGATION%20PLATFORM&descSize=16&descAlignY=60" width="100%" /><br/>◈ C I N E S H I E L D   A I ◈
 
-<div align="center">PROTECT THE FRAME. TRACE THE SOURCE. SECURE THE EVIDENCE.
+THE NEXT GENERATION OF DIGITAL MEDIA INVESTIGATION
 
-An intelligent movie investigation and digital evidence management platform.
+PROTECT THE FRAME. TRACE THE SOURCE. SECURE THE EVIDENCE.
 
-""Python" (https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)" (https://python.org/)
-""Streamlit" (https://img.shields.io/badge/Streamlit-Framework-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)" (https://streamlit.io/)
-""SQLite" (https://img.shields.io/badge/SQLite-Database-003B57?style=for-the-badge&logo=sqlite&logoColor=white)" (https://sqlite.org/)
-""HTML5" (https://img.shields.io/badge/HTML5-Frontend-E34F26?style=for-the-badge&logo=html5&logoColor=white)" (https://developer.mozilla.org/en-US/docs/Web/HTML)
-""JavaScript" (https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)" (https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+<br/><a href="https://github.com/saaqibmohiddin/CineShield-AI">
+<img src="https://img.shields.io/badge/EXPLORE%20PROJECT-8B5CF6?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+<img src="https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/STREAMLIT-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
+<img src="https://img.shields.io/badge/SQLITE-003B57?style=for-the-badge&logo=sqlite&logoColor=white"/><br/><br/>
 
-<br/>"Explore Repository" (https://github.com/saaqibmohiddin/CineShield-AI) ·
-"View Interactive Demo" (https://github.com/saaqibmohiddin/CineShield-AI/blob/main/index.html) ·
-"View Source Code" (https://github.com/saaqibmohiddin/CineShield-AI/blob/main/app.py)
+"OVERVIEW" (#-overview) • "FEATURES" (#-features) • "TECHNOLOGY" (#-technology) • "ARCHITECTURE" (#-architecture) • "INSTALLATION" (#-installation)
+
+<br/><img src="https://img.shields.io/badge/EDITION-DEVELOPMENT-8B5CF6?style=flat-square"/>
+<img src="https://img.shields.io/badge/INTERFACE-DARK%20CINEMATIC-17112B?style=flat-square"/>
+<img src="https://img.shields.io/badge/INTEGRITY-SHA--256-7C3AED?style=flat-square"/></div>---
+
+<div align="center">◈ BEYOND ORDINARY MOVIE INVESTIGATION
+
+One platform. Multiple intelligence modules. A structured digital evidence workflow.
+
+</div>◈ OVERVIEW
+
+CineShield AI is an intelligent movie investigation and digital evidence management project designed to organize movie information, investigate media files, maintain evidence fingerprints and manage distribution-related records.
+
+It combines a Python-powered Streamlit application with a browser-based interface to provide a centralized investigation environment.
+
+THE MISSION
+
+To build a modern digital investigation platform that makes movie-related evidence management more organized, accessible and efficient.
+
+---
+
+◈ THE CINESHIELD ECOSYSTEM
+
+<div align="center"><img src="https://img.icons8.com/fluency/96/movie-projector.png" width="45"/>| <img src="https://img.icons8.com/fluency/96/fingerprint.png" width="45"/>| <img src="https://img.icons8.com/fluency/96/security-checked.png" width="45"/>
+MOVIE INTELLIGENCE| FILE FINGERPRINTING| EVIDENCE MANAGEMENT
+Movie records| SHA-256 hashes| Digital evidence
+
+<img src="https://img.icons8.com/fluency/96/network.png" width="45"/>| <img src="https://img.icons8.com/fluency/96/combo-chart.png" width="45"/>| <img src="https://img.icons8.com/fluency/96/report-card.png" width="45"/>
+NETWORK INTELLIGENCE| INVESTIGATION ANALYTICS| FORENSIC REPORTS
+Relationships| Case priorities| Investigation summaries
 
 </div>---
 
-◈ 01 — PROJECT OVERVIEW
+◈ FEATURES
 
-CineShield AI is a movie investigation and digital evidence management platform designed to organize movie-related investigation records, compare authorized media samples, maintain evidence fingerprints, and manage distribution intelligence.
+<div align="center">01 — MEDIA INVESTIGATION
 
-The platform combines a Python-based Streamlit application with an interactive browser demonstration to provide a centralized environment for movie registration, file investigation, evidence management, and investigation reporting.
+</div>MODULE| CAPABILITIES
+🎬 Movie Registry| Movie registration, language details, reference samples and file fingerprints
+🔍 Scan Center| Comparison uploads, SHA-256 generation, exact hash matching and scan history
+🎞️ Video Forensics| Video uploads, file information and fingerprint generation
+🎧 Audio Forensics| Audio uploads, file information and fingerprint generation
 
-Its primary objective is to provide a structured workflow for recording potential movie piracy indicators and managing supporting digital evidence.
+<div align="center">02 — DIGITAL EVIDENCE & INTELLIGENCE
 
-The Vision
+</div>MODULE| CAPABILITIES
+🔐 Evidence Vault| Evidence records, descriptions and SHA-256 fingerprints
+📁 Case Management| Investigation cases, priorities and status
+💧 Watermark Center| Watermark identifiers and distribution details
+🌐 Source Discovery| Source URLs, platform information and observations
+👤 Uploader Intelligence| Public usernames, profile URLs and platform observations
+🌍 Global Intelligence| Country, region and language information
+🔗 Network Analysis| Entity relationships and supporting observations
 
-«Transform fragmented movie investigation workflows into a centralized, organized, and evidence-oriented intelligence platform.»
+<div align="center">03 — ANALYTICS & MANAGEMENT
 
----
-
-◈ 02 — CORE CAPABILITIES
-
-<table>
-<tr>
-<td width="50%" valign="top">🎬 Movie Registry
-
-- Register movie information.
-- Maintain movie language and release year.
-- Upload authorized reference samples.
-- Generate SHA-256 reference fingerprints.
-- Review registered movie records.
-
-</td>
-<td width="50%" valign="top">🔍 Scan Center
-
-- Select registered movies.
-- Upload lawfully obtained comparison samples.
-- Calculate SHA-256 fingerprints.
-- Identify exact file-hash matches.
-- Maintain investigation scan history.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">🎞️ Video Forensics
-
-- Accept supported video files.
-- Display file information.
-- Calculate SHA-256 fingerprints.
-- Prepare for future frame-level analysis.
-
-</td>
-<td width="50%" valign="top">🎧 Audio Forensics
-
-- Accept supported audio samples.
-- Display uploaded file information.
-- Calculate SHA-256 fingerprints.
-- Prepare for future audio fingerprinting.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">🔐 Evidence Vault
-
-- Register digital evidence.
-- Record evidence descriptions.
-- Calculate file fingerprints.
-- Maintain evidence metadata.
-- Review stored evidence records.
-
-</td>
-<td width="50%" valign="top">📁 Case Management
-
-- Create investigation cases.
-- Associate cases with movies.
-- Assign investigation priorities.
-- Track case statuses.
-- Maintain investigator information.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">💧 Watermark Center
-
-- Record watermark identifiers.
-- Associate watermarks with movies.
-- Maintain recipient information.
-- Store distribution details.
-
-</td>
-<td width="50%" valign="top">🌐 Source Discovery
-
-- Record publicly submitted source URLs.
-- Maintain platform information.
-- Store investigator observations.
-- Organize source-related records.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">👤 Uploader Intelligence
-
-- Record publicly visible usernames.
-- Maintain public profile URLs.
-- Record platform information.
-- Store observed activity.
-
-</td>
-<td width="50%" valign="top">🌍 Global Intelligence
-
-- Record country and region information.
-- Associate observations with movies.
-- Maintain language information.
-- Organize geographic intelligence records.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">🔗 Network Analysis
-
-- Record relationships between public entities.
-- Maintain relationship descriptions.
-- Store supporting observations.
-- Prepare for future graph visualization.
-
-</td>
-<td width="50%" valign="top">🤖 Investigation Assistant
-
-- Search locally stored investigation records.
-- Find matching information using keywords.
-- Display relevant records.
-- Prepare for future LLM integration.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">📊 Risk Prediction
-
-- Review investigation priorities.
-- Display high, medium, and low priority counts.
-- Review case information.
-
-</td>
-<td width="50%" valign="top">📄 Forensic Reports
-
-- Generate investigation summaries.
-- Include movie registry information.
-- Include scan records.
-- Include case and evidence details.
-- Download investigation reports.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">🔔 Alert Center
-
-- Review recent scan activity.
-- Display high-priority cases.
-- View application activity notices.
-
-</td>
-<td width="50%" valign="top">🏢 Organization Management
-
-- Register organization details.
-- Record organization type.
-- Maintain authorized contact information.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">🌐 Multilingual Intelligence
-
-- Maintain supported movie languages.
-- Organize multilingual project information.
-- Prepare for future language-processing integrations.
-
-</td>
-<td width="50%" valign="top">📡 Distribution Intelligence
-
-- Record distributor information.
-- Maintain authorized recipient details.
-- Store distribution regions.
-- Track distribution reference IDs.
-
-</td>
-</tr>
-</table>Additional Modules
-
-- Dashboard: Centralized investigation overview and activity statistics.
-- Admin Settings: Application information, database backup and module overview.
+</div>MODULE| CAPABILITIES
+🤖 Investigation Assistant| Search locally stored records using keywords
+📊 Risk Prediction| Review investigation priorities and case information
+📄 Forensic Reports| Investigation summaries and downloadable reports
+🔔 Alert Center| Recent scan activity and high-priority cases
+🏢 Organization Management| Organization records and contact information
+🌐 Multilingual Intelligence| Language-related movie information
+📡 Distribution Intelligence| Distributor, recipient and region records
 
 ---
 
-◈ 03 — PREMIUM INTERFACE & DESIGN
+◈ TECHNOLOGY
 
-CineShield AI follows a cinematic dark-interface design language inspired by modern investigation dashboards and enterprise intelligence applications.
+<div align="center">POWERED BY MODERN TECHNOLOGIES
 
-Design Philosophy
+<img src="https://skillicons.dev/icons?i=python,html,css,js,sqlite,git,github,vscode&theme=dark" /><br/><br/>
 
-Design Element| Theme
-Primary Background| Obsidian Black
-Secondary Background| Midnight Navy
-Accent Color| Electric Violet
-Highlight Color| Soft Lavender
-Typography| Inter / Sans-serif
-Interface Style| Modern, Minimal and Cinematic
-Layout| Responsive Dashboard
-Visual Direction| Digital Forensics & Intelligence
+TECHNOLOGY| PURPOSE
+Python| Core application logic
+Streamlit| Interactive dashboard
+SQLite| Local database
+HTML5| Browser interface
+CSS3| Visual design and styling
+JavaScript| Browser interactions
+SHA-256| File fingerprinting
+Git & GitHub| Version control
 
-Color Palette
+</div>---
 
-Color| Hex Code| Purpose
-Obsidian| "#080B16"| Main background
-Midnight Navy| "#11182B"| Cards and panels
-Deep Purple| "#252044"| Secondary surfaces
-Electric Violet| "#8B5CF6"| Primary accent
-Lavender| "#C4B5FD"| Highlights
-Ice White| "#F1F5F9"| Primary text
+◈ ARCHITECTURE
 
----
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:17112B,100:6D28D9&height=55&text=CINESHIELD%20AI%20SYSTEM&fontSize=22&fontColor=FFFFFF" width="100%"/></div>                  CINESHIELD AI
+                        |
+             +----------+----------+
+             |                     |
+        STREAMLIT APP         BROWSER DEMO
+          (Python)            (HTML/CSS/JS)
+             |                     |
+        SQLITE DATABASE      LOCAL STORAGE
+             |
+       +-----+----------------+
+       |                      |
+  INVESTIGATION           EVIDENCE
+       |                      |
+       +----------+-----------+
+                  |
+           CASE MANAGEMENT
+                  |
+           REPORT GENERATION
 
-◈ 04 — TECHNOLOGY STACK
+FILE INVESTIGATION PROCESS
 
-Application Architecture
+    AUTHORIZED REFERENCE FILE
+               |
+               v
+       SHA-256 FINGERPRINT
+               |
+               v
+       COMPARISON FILE
+               |
+               v
+       SHA-256 FINGERPRINT
+               |
+               v
+         HASH COMPARISON
+               |
+          +----+----+
+          |         |
+        MATCH    NO MATCH
+          |         |
+          +----+----+
+               |
+               v
+      INVESTIGATION RECORD
+               |
+               v
+         HUMAN REVIEW
 
-Layer| Technology| Purpose
-Main Application| Python| Application logic
-UI Framework| Streamlit| Interactive dashboard
-Database| SQLite| Local structured storage
-Browser Interface| HTML5| Interactive demonstration
-Styling| CSS3| Premium UI design
-Browser Logic| JavaScript| Interactive modules
-File Integrity| SHA-256| File fingerprinting
-Version Control| Git| Source management
-Repository Hosting| GitHub| Project hosting
-
-Key Python Libraries
-
-- "streamlit" — Interactive application interface.
-- "sqlite3" — Database operations.
-- "hashlib" — SHA-256 fingerprint generation.
-- "json" — Structured data handling.
-- "datetime" — Timestamp management.
-- "pathlib" — File and directory management.
-
----
-
-◈ 05 — SYSTEM WORKFLOW
-
-The current file-comparison workflow uses cryptographic file hashing.
-
-       ┌──────────────────────────┐
-       │       CINESHIELD AI      │
-       │    Investigation System  │
-       └────────────┬─────────────┘
-                    │
-                    ▼
-       ┌──────────────────────────┐
-       │       Movie Registry     │
-       │  Authorized Reference    │
-       │       File Upload        │
-       └────────────┬─────────────┘
-                    │
-                    ▼
-       ┌──────────────────────────┐
-       │     SHA-256 Generator    │
-       │  Reference Fingerprint   │
-       └────────────┬─────────────┘
-                    │
-                    ▼
-       ┌──────────────────────────┐
-       │       Scan Center        │
-       │  Comparison File Upload  │
-       └────────────┬─────────────┘
-                    │
-                    ▼
-       ┌──────────────────────────┐
-       │     SHA-256 Comparison   │
-       └────────────┬─────────────┘
-                    │
-             ┌──────┴──────┐
-             ▼             ▼
-        Exact Match     No Exact Match
-             │             │
-             └──────┬──────┘
-                    │
-                    ▼
-       ┌──────────────────────────┐
-       │  Investigation Records   │
-       │   Evidence & Case Data   │
-       └────────────┬─────────────┘
-                    │
-                    ▼
-       ┌──────────────────────────┐
-       │    Forensic Reports      │
-       │     Investigation        │
-       │        Summary           │
-       └──────────────────────────┘
-
-Important: SHA-256 comparison identifies identical file bytes. Different hashes do not establish that two videos or audio recordings contain different underlying content.
+Note: SHA-256 detects exact file-byte matches. It does not detect visually similar or modified media. Perceptual video and audio matching are planned enhancements.
 
 ---
 
-◈ 06 — PROJECT STRUCTURE
+◈ PREMIUM DESIGN LANGUAGE
+
+<div align="center">OBSIDIAN × MIDNIGHT × ELECTRIC VIOLET
+
+COLOR| HEX
+<img src="https://singlecolorimage.com/get/080B16/80x30" width="80"/>| "#080B16"
+<img src="https://singlecolorimage.com/get/11182B/80x30" width="80"/>| "#11182B"
+<img src="https://singlecolorimage.com/get/252044/80x30" width="80"/>| "#252044"
+<img src="https://singlecolorimage.com/get/8B5CF6/80x30" width="80"/>| "#8B5CF6"
+<img src="https://singlecolorimage.com/get/C4B5FD/80x30" width="80"/>| "#C4B5FD"
+
+VISUAL DIRECTION
+
+Cinematic Dark • Minimal Layout • Violet Accents • Modern Typography • Digital Forensics Aesthetic
+
+</div>---
+
+◈ PROJECT STRUCTURE
 
 CineShield-AI/
 │
 ├── app.py
-│   └── Main Streamlit application
-│
 ├── index.html
-│   └── Interactive browser demonstration
-│
 ├── config.py
-│   └── Application configuration
-│
 ├── report_generator.py
-│   └── Investigation report generation
-│
 ├── requirements.txt
-│   └── Python dependencies
-│
 ├── .gitignore
-│   └── Excluded files and directories
 │
 ├── data/
-│   └── Application data
-│
 ├── evidence/
-│   └── Evidence storage directory
-│
 ├── reports/
-│   └── Generated reports
-│
 ├── samples/
-│   └── Authorized sample storage
-│
 └── watermarks/
-    └── Watermark-related storage
-
-The directories above are configured by the application; their contents are not committed as part of the public repository.
 
 ---
 
-◈ 07 — INSTALLATION & SETUP
+◈ INSTALLATION
 
-Prerequisites
-
-Make sure you have:
-
-- Python 3.10 or newer.
-- pip package manager.
-- Git.
-- VS Code (recommended).
-
-Step 1 — Clone the Repository
+STEP 01 — Clone the repository
 
 git clone https://github.com/saaqibmohiddin/CineShield-AI.git
 
-Step 2 — Open the Project
+STEP 02 — Enter the project directory
 
 cd CineShield-AI
 
-Step 3 — Create a Virtual Environment
-
-Windows:
+STEP 03 — Create a virtual environment
 
 python -m venv venv
 
-Activate:
+STEP 04 — Activate the environment
+
+Windows
 
 venv\Scripts\activate
 
-macOS / Linux:
+Linux / macOS
 
-python3 -m venv venv
 source venv/bin/activate
 
-Step 4 — Install Dependencies
+STEP 05 — Install dependencies
 
 pip install -r requirements.txt
 
-Step 5 — Run CineShield AI
+STEP 06 — Launch the application
 
 streamlit run app.py
 
-Step 6 — Open the Application
-
-Streamlit normally launches the application at:
-
-http://localhost:8501
+<div align="center"><img src="https://img.shields.io/badge/LOCAL%20SERVER-http%3A%2F%2Flocalhost%3A8501-8B5CF6?style=for-the-badge&logo=googlechrome&logoColor=white"/></div>Open "index.html" separately in your browser to view the browser demonstration. Its local browser storage is separate from the Streamlit SQLite database.
 
 ---
 
-◈ 08 — INTERACTIVE BROWSER DEMONSTRATION
+◈ SECURITY & LIMITATIONS
 
-The repository also contains an independent HTML, CSS and JavaScript demonstration.
+- SHA-256 file fingerprints support exact file-integrity comparison.
+- Local SQLite provides structured application records.
+- Production authentication and role-based access are not yet implemented.
+- Encrypted evidence storage and complete chain-of-custody controls are future enhancements.
+- A matching hash is not proof of copyright ownership or infringement.
+- Different hashes do not establish that media content is different.
 
-To open it:
-
-1. Navigate to the project folder.
-2. Locate "index.html".
-3. Open it using a browser.
-
-The browser demonstration includes:
-
-- Movie Management
-- Investigation Records
-- Evidence Management
-- Case Management
-- Reports and Exports
-- Security Information
-- SHA-256 browser-based file fingerprinting
-
-The demonstration stores its records in browser "localStorage". It does not share a database with the Streamlit application.
+Use only authorized media and lawfully obtained information. All investigation findings require appropriate human verification.
 
 ---
 
-◈ 09 — SECURITY & EVIDENCE INTEGRITY
+◈ DEVELOPMENT ROADMAP
 
-CineShield AI incorporates SHA-256 fingerprinting to support file-integrity comparisons.
+STATUS| ENHANCEMENT
+⬜| Perceptual video fingerprinting
+⬜| Video frame similarity detection
+⬜| Audio fingerprinting
+⬜| AI-assisted media investigation
+⬜| LLM-powered investigation assistant
+⬜| Multilingual subtitle analysis
+⬜| Interactive network visualization
+⬜| Advanced risk scoring
+⬜| Evidence chain-of-custody
+⬜| Secure authentication
+⬜| Encrypted evidence storage
+⬜| Cloud deployment
 
-Current Security Considerations
-
-- SHA-256 file fingerprint generation.
-- Basic input validation.
-- Local SQLite database storage.
-- Browser-side HTML escaping in the demonstration.
-- Exclusion of local databases and private evidence from Git.
-- Recording of investigation timestamps.
-
-Important Limitations
-
-A cryptographic hash alone does not establish:
-
-- Original file authenticity.
-- Ownership or copyright infringement.
-- Evidence chain of custody.
-- Whether a modified video contains the same scenes.
-- Whether an uploader is responsible for an infringement.
-
-Investigation findings should be treated as leads requiring independent verification and appropriate human review.
-
-The current development edition does not implement production authentication, organization isolation or encrypted evidence storage.
+<sub>Roadmap items are planned enhancements, not claims of existing functionality.</sub>
 
 ---
 
-◈ 10 — DEVELOPMENT ROADMAP
+◈ CONTRIBUTION
 
-The following capabilities are proposed future enhancements, not claims about existing functionality.
+Contributions and suggestions are welcome.
 
-- [ ] Advanced video frame fingerprinting.
-- [ ] Perceptual video similarity detection.
-- [ ] Audio fingerprinting and comparison.
-- [ ] AI-assisted media analysis.
-- [ ] LLM-powered investigation assistant.
-- [ ] Subtitle and multilingual content analysis.
-- [ ] Interactive distribution-network visualization.
-- [ ] Automated public-source discovery through permitted APIs.
-- [ ] Advanced investigation risk scoring.
-- [ ] Evidence chain-of-custody tracking.
-- [ ] Secure user authentication and role-based access.
-- [ ] Encrypted evidence storage.
-- [ ] Cloud database integration.
-- [ ] Advanced PDF and CSV forensic reports.
-- [ ] Production-ready deployment.
-
----
-
-◈ 11 — USE CASES
-
-CineShield AI is designed around workflows that can support:
-
-- Film production organizations.
-- Authorized content distributors.
-- OTT platform investigation teams.
-- Digital media protection workflows.
-- Copyright investigation teams.
-- Media evidence management.
-- Movie distribution record management.
-
-Use the platform only with authorized media and lawfully obtained public information.
-
----
-
-◈ 12 — CONTRIBUTION
-
-Contributions, ideas, suggestions and improvements are welcome.
-
-1. Fork this repository.
-2. Create a feature branch.
+1. Fork the repository.
+2. Create a new feature branch.
 3. Implement your changes.
-4. Test the functionality.
-5. Submit a pull request with a clear description.
+4. Test your implementation.
+5. Submit a pull request.
 
 ---
 
-◈ 13 — DEVELOPER
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=soft&color=0:080B16,50:312E81,100:7C3AED&height=140&text=THE%20DEVELOPER&fontSize=32&fontColor=FFFFFF" width="100%"/>MOHAMMED SAAQIB MOHIDDIN
 
-<div align="center">MOHAMMED SAAQIB MOHIDDIN
+COMPUTER SCIENCE & ENGINEERING | ARTIFICIAL INTELLIGENCE
 
-Computer Science & Engineering | Artificial Intelligence
+<a href="https://github.com/saaqibmohiddin">
+<img src="https://img.shields.io/badge/GITHUB-VIEW%20PROFILE-8B5CF6?style=for-the-badge&logo=github&logoColor=white"/>
+</a><br/><br/>
 
-Interested in Artificial Intelligence, Python, Machine Learning, Generative AI and building practical technology solutions.
-
-""GitHub" (https://img.shields.io/badge/GitHub-saaqibmohiddin-181717?style=for-the-badge&logo=github)" (https://github.com/saaqibmohiddin)
-
-"View Developer Profile" (https://github.com/saaqibmohiddin)
-
-</div>---
-
-◈ 14 — LICENSE & PROJECT STATUS
-
-Project: CineShield AI
-Version: Development Edition
-Primary Language: Python
-Repository: Public GitHub Repository
-License: No explicit repository license has been verified. All rights remain with their respective owners.
-
----
-
-<div align="center">CINESHIELD AI
+CINESHIELD AI
 
 PROTECT THE FRAME. TRACE THE SOURCE. SECURE THE EVIDENCE.
 
-Building a smarter approach to movie investigation and digital evidence management.
-
-""GitHub Stars" (https://img.shields.io/github/stars/saaqibmohiddin/CineShield-AI?style=social)" (https://github.com/saaqibmohiddin/CineShield-AI/stargazers)
-""GitHub Forks" (https://img.shields.io/github/forks/saaqibmohiddin/CineShield-AI?style=social)" (https://github.com/saaqibmohiddin/CineShield-AI/forks)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:211B3D,100:080B16&height=150&section=footer" width="100%"/><sub>© CineShield AI | Movie Investigation & Digital Evidence Management</sub>
 
 </div>
