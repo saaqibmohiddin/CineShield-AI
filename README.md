@@ -358,20 +358,75 @@ Open the local URL displayed in your terminal, normally:
 
 http://localhost:8501
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=55&color=0:080B16,50:252044,100:8B5CF6&text=INVESTIGATE%20SMARTER.%20ORGANIZE%20BETTER.&fontSize=16&fontColor=FFFFFF" width="100%"/></div>10 — PROJECT OBJECTIVES
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=55&color=0:080B16,50:252044,100:8B5CF6&text=INVESTIGATE%20SMARTER.%20ORGANIZE%20BETTER.&fontSize=16&fontColor=FFFFFF" width="100%"/></div>
 
-CineShield AI is developed around five primary objectives.
+10 — PROJECT OBJECTIVES
 
-OBJECTIVE| DESCRIPTION
-Movie Intelligence| Maintain organized movie-related information.
-Digital Forensics| Generate and compare cryptographic file fingerprints.
-Evidence Management| Maintain structured evidence records.
-Investigation Management| Organize cases and related information.
-Reporting| Generate investigation summaries.
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=95&color=0:080B18,45:30205F,100:8957F5&text=PROJECT%20OBJECTIVES&fontColor=FFFFFF&fontSize=27&fontAlignY=50" width="100%"/><br/><img src="https://img.shields.io/badge/PROJECT-CINESHIELD%20AI-8957F5?style=for-the-badge&labelColor=080B18"/>
+<img src="https://img.shields.io/badge/DOMAIN-DIGITAL%20FORENSICS-30205F?style=for-the-badge&labelColor=080B18"/></div>CineShield AI is developed around five primary objectives.
 
-THE MISSION
+---
 
-To develop a modern digital investigation environment that makes movie-related evidence organization more structured, accessible and efficient.
+◈ PRIMARY OBJECTIVES
+
+<table width="100%">
+<tr>
+<td align="center" width="65" bgcolor="#8957F5"><b>01</b></td>
+<td bgcolor="#101020">MOVIE INTELLIGENCE
+
+Maintain organized movie-related information.
+
+</td>
+</tr>
+<tr><td colspan="2" height="8"></td></tr>
+<tr>
+<td align="center" bgcolor="#8957F5"><b>02</b></td>
+<td bgcolor="#101020">DIGITAL FORENSICS
+
+Generate and compare cryptographic file fingerprints.
+
+</td>
+</tr>
+<tr><td colspan="2" height="8"></td></tr>
+<tr>
+<td align="center" bgcolor="#8957F5"><b>03</b></td>
+<td bgcolor="#101020">EVIDENCE MANAGEMENT
+
+Maintain structured evidence records.
+
+</td>
+</tr>
+<tr><td colspan="2" height="8"></td></tr>
+<tr>
+<td align="center" bgcolor="#8957F5"><b>04</b></td>
+<td bgcolor="#101020">INVESTIGATION MANAGEMENT
+
+Organize cases and related information.
+
+</td>
+</tr>
+<tr><td colspan="2" height="8"></td></tr>
+<tr>
+<td align="center" bgcolor="#8957F5"><b>05</b></td>
+<td bgcolor="#101020">REPORTING
+
+Generate investigation summaries.
+
+</td>
+</tr>
+</table>---
+
+◈ THE MISSION
+
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=65&color=0:080B18,50:30205F,100:8957F5&text=OUR%20MISSION&fontColor=FFFFFF&fontSize=23&fontAlignY=50" width="100%"/><br/></div>To develop a modern digital investigation environment that makes movie-related evidence organization more structured, accessible and efficient.
+
+---
+
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=75&color=0:8957F5,50:30205F,100:080B18&text=INTELLIGENCE%20WITH%20INTEGRITY&fontColor=FFFFFF&fontSize=19&fontAlignY=50" width="100%"/>◈ C I N E S H I E L D  A I ◈
+
+INVESTIGATION WITH PURPOSE.
+
+</div>
 
 ---
 
