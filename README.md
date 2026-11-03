@@ -390,7 +390,7 @@ Important considerations:
 
 ---
 
-12 — CURRENT PROJECT STATUS
+## 12 — CURRENT PROJECT STATUS
 
 <div align="center"><img src="https://img.shields.io/badge/PROJECT-DEVELOPMENT%20EDITION-8B5CF6?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/PLATFORM-OPEN%20SOURCE-252044?style=for-the-badge&logo=github&logoColor=white"/></div>CineShield AI is an evolving development project.
