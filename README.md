@@ -280,18 +280,13 @@ Storage directories are created by the application configuration when initialize
 
 ## 08 — DATABASE & EVIDENCE INTEGRITY
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=65&color=0:080B18,100:8957F5&text=EVIDENCE%20INTEGRITY&fontSize=21&fontColor=FFFFFF" width="100%" />DATABASE "SQLITE"  •  CRYPTOGRAPHY "SHA-256"
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=65&color=0:080B18,100:8957F5&text=EVIDENCE%20INTEGRITY&fontSize=21&fontColor=FFFFFF" width="100%" />DATABASE  |  SQLITE
+
+CRYPTOGRAPHY  |  SHA-256
 
 </div>◈ DATABASE MANAGEMENT
 
-CineShield AI uses SQLite to maintain structured application records.
-
-TABLE| DATA
-movies| Movie details and hashes
-investigations| Files and comparison results
-records| Investigation records
-evidence| Evidence and fingerprints
-cases| Case details and status
+CineShield AI uses SQLite for structured evidence and investigation records.
 
 ◈ SHA-256 FINGERPRINTING
 
@@ -300,14 +295,14 @@ import hashlib
 def generate_fingerprint(file_data):
     return hashlib.sha256(file_data).hexdigest()
 
-◈ FORENSIC VERIFICATION
+◈ INTEGRITY VERIFICATION
 
-- IDENTICAL HASHES — Indicate identical file bytes, subject to hash security assumptions.
-- DIFFERENT HASHES — Indicate different file bytes.
-- MEDIA ANALYSIS — Different hashes do not prove that media files are unrelated.
-- EVIDENCE REVIEW — Hash comparison alone cannot prove piracy or copyright infringement.
+- IDENTICAL HASHES — Identical file bytes.
+- DIFFERENT HASHES — Different file bytes.
+- MEDIA ANALYSIS — Hashes alone cannot establish media similarity.
+- EVIDENCE REVIEW — Hash comparison alone cannot prove piracy.
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=45&color=0:080B18,100:8957F5&text=PROTECT%20THE%20FRAME.%20SECURE%20THE%20EVIDENCE.&fontSize=11&fontColor=FFFFFF" width="100%" /></div>
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=50&color=0:080B18,100:8957F5&text=PROTECT%20THE%20FRAME.%20SECURE%20THE%20EVIDENCE.&fontSize=11&fontColor=FFFFFF" width="100%" /></div>
 
 ---
 
