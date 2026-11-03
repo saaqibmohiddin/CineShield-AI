@@ -139,42 +139,27 @@ Structured investigation summaries and reporting.
 ## 04 — CORE FEATURES & MODULES
 
 <p align="center">
-  <img src="https://img.shields.io/badge/CINESHIELD--AI-CORE_MODULES-7139D8?style=for-the-badge&labelColor=080B1A"/>
-</p>01 — MEDIA INVESTIGATION
-
-<p>
-  <img src="https://img.shields.io/badge/MEDIA-7139D8?style=flat-square"/>
-  <img src="https://img.shields.io/badge/FORENSICS-7139D8?style=flat-square"/>
-</p>- 🎬 Movie Registry
-- 🔍 Scan Center
-- 🎞️ Video Forensics
-- 🎧 Audio Forensics
-
-02 — DIGITAL EVIDENCE & INTELLIGENCE
-
-<p>
-  <img src="https://img.shields.io/badge/EVIDENCE-7139D8?style=flat-square"/>
-  <img src="https://img.shields.io/badge/INTELLIGENCE-7139D8?style=flat-square"/>
-</p>- 🔐 Evidence Vault & Case Management
-- 💧 Watermark Center
-- 🌐 Source & Network Discovery
-- 👤 Uploader & Global Intelligence
-
-03 — ANALYTICS & MANAGEMENT
-
-<p>
-  <img src="https://img.shields.io/badge/ANALYTICS-7139D8?style=flat-square"/>
-  <img src="https://img.shields.io/badge/MANAGEMENT-7139D8?style=flat-square"/>
-</p>- 🤖 Investigation Assistant
-- 📊 Risk & Alert Management
-- 📄 Forensic Reports
-- 🌍 Multilingual & Distribution Intelligence
-- ⚙️ Organization & Admin Settings
-
-<p align="center">
-  <img src="https://img.shields.io/badge/INVESTIGATE-ORGANIZE-REPORT-7139D8?style=for-the-badge&labelColor=080B1A"/>
+  <img src="https://img.shields.io/badge/CINESHIELD_AI-CORE_MODULES-8B5CF6?style=for-the-badge&labelColor=080B1A"/>
 </p><p align="center">
-  <sub>Module availability represents the implemented application features; external intelligence integrations are not implied.</sub>
+  <img src="https://img.shields.io/badge/01-MEDIA_INVESTIGATION-7139D8?style=for-the-badge&labelColor=17102D"/>
+</p><p align="center">
+  🎬 Movie Registry  •  🔍 File Scanner
+  <br/>
+  🎞️ Video Forensics  •  🎧 Audio Forensics
+</p><p align="center">
+  <img src="https://img.shields.io/badge/02-DIGITAL_EVIDENCE-7139D8?style=for-the-badge&labelColor=17102D"/>
+</p><p align="center">
+  🔐 Evidence Vault  •  📁 Case Management
+  <br/>
+  💧 Watermarks  •  🌐 Source Discovery
+</p><p align="center">
+  <img src="https://img.shields.io/badge/03-ANALYTICS_&_MANAGEMENT-7139D8?style=for-the-badge&labelColor=17102D"/>
+</p><p align="center">
+  🤖 Investigation Assistant  •  📊 Risk Analysis
+  <br/>
+  📄 Reports  •  ⚙️ Admin Settings
+</p><p align="center">
+  <img src="https://img.shields.io/badge/INVESTIGATE_%7C_ANALYZE_%7C_REPORT-8B5CF6?style=for-the-badge&labelColor=080B1A"/>
 </p>
 
 ---
