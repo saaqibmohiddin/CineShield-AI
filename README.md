@@ -176,34 +176,34 @@ Note: Module names describe the application workspace. Their presence does not i
 
 05 — HOW CINESHIELD WORKS
 
-<div align="center">THE DIGITAL INVESTIGATION WORKFLOW
+<p align="center">
+  <img src="https://img.shields.io/badge/CINESHIELD--AI-INVESTIGATION_WORKFLOW-7139D8?style=for-the-badge&labelColor=080B1A"/>
+</p>◈ APPLICATION WORKFLOW
 
-</div>flowchart TD
-    A["AUTHORIZED REFERENCE MEDIA"] --> B["MOVIE REGISTRY"]
-    B --> C["REFERENCE SHA-256"]
-    C --> D["CANDIDATE MEDIA UPLOAD"]
-    D --> E["SHA-256 FINGERPRINT"]
-    E --> F["HASH COMPARISON"]
-    F --> G{"EXACT MATCH?"}
-    G -->|Yes| H["EXACT FILE MATCH"]
-    G -->|No| I["NO EXACT FILE MATCH"]
-    H --> J["INVESTIGATION RECORD"]
-    I --> J
-    J --> K["EVIDENCE & CASE MANAGEMENT"]
-    K --> L["FORENSIC REPORT"]
+<p align="center">
+  <img src="https://img.shields.io/badge/01-REFERENCE_MEDIA-211547?style=for-the-badge"/>
+  ↓
+  <img src="https://img.shields.io/badge/02-SHA--256_HASH-38206F?style=for-the-badge"/>
+  ↓
+  <img src="https://img.shields.io/badge/03-CANDIDATE_UPLOAD-512A9C?style=for-the-badge"/>
+  ↓
+  <img src="https://img.shields.io/badge/04-HASH_COMPARISON-7139D8?style=for-the-badge"/>
+  ↓
+  <img src="https://img.shields.io/badge/05-RESULT_&_REPORT-8B5CF6?style=for-the-badge"/>
+</p>◈ INVESTIGATION PROCESS
 
-Investigation Process
+Stage| Function
+01| Register reference movie
+02| Generate SHA-256 hash
+03| Upload candidate file
+04| Compare file hashes
+05| Record comparison result
+06| Manage evidence and cases
+07| Generate investigation report
 
-STAGE| PROCESS| PURPOSE
-01| Reference Registration| Register an authorized reference movie file.
-02| Fingerprint Generation| Generate its SHA-256 fingerprint.
-03| Candidate Upload| Upload a candidate file for comparison.
-04| Hash Comparison| Compare the two cryptographic fingerprints.
-05| Result Recording| Store the comparison result.
-06| Evidence Management| Organize related investigation records.
-07| Report Generation| Produce a structured investigation report.
-
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=55&color=0:11182B,50:252044,100:8B5CF6&text=ACCURACY%20%7C%20TRACEABILITY%20%7C%20EVIDENCE%20INTEGRITY&fontSize=15&fontColor=FFFFFF" width="100%"/></div>
+<p align="center">
+  <img src="https://img.shields.io/badge/ACCURACY-TRACEABILITY-EVIDENCE_INTEGRITY-7139D8?style=for-the-badge&labelColor=080B1A"/>
+</p>
 
 <h2 align="center">06 — TECHNOLOGY STACK</h2>
 
