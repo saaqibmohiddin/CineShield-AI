@@ -1,4 +1,22 @@
 
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=180&color=0:0B1020,50:24134A,100:8247E5&text=CINESHIELD%20AI&fontColor=FFFFFF&fontSize=48&fontAlignY=45&desc=INTELLIGENT%20MOVIE%20INVESTIGATION%20%7C%20DIGITAL%20FORENSICS&descSize=11&descAlignY=70&animation=fadeIn" width="100%"/>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
 <div align="center">
 
 ## ◈ PROJECT PURPOSE
