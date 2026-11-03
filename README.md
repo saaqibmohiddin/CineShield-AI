@@ -457,7 +457,7 @@ SPECIALIZATION IN ARTIFICIAL INTELLIGENCE
 
 <p align="center">
   <img src="https://img.shields.io/badge/PROJECT-CINESHIELD%20AI-8B5CF6?style=for-the-badge&labelColor=080B16" />
-  <img src="https://img.shields.io/badge/INTERFACE-DIGITAL%20FORENSIC-252044?style=for-the-badge&labelColor=080B16" />
+  <img src="https://img.shields.io/badge/DOMAIN-DIGITAL%20FORENSIC-252044?style=for-the-badge&labelColor=080B16" />
 </p>
 
 <p align="center">
