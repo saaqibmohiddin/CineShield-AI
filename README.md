@@ -9,14 +9,6 @@
 
 
 
-
-
-
-
-
-
-
-
 <div align="center">
 
 ## ◈ PROJECT PURPOSE
