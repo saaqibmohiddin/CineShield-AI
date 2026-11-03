@@ -490,7 +490,9 @@ SPECIALIZATION IN ARTIFICIAL INTELLIGENCE
 <br>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&height=100&color=0:252044,45:8B5CF6,100:080B16&text=PROTECT%20THE%20FRAME.&fontColor=FFFFFF&fontSize=24&fontAlignY=42&desc=TRACE%20THE%20SOURCE.%20SECURE%20THE%20EVIDENCE.&descSize=11&descAlignY=70" />
+  <a href="https://github.com/saaqibmohiddin">
+    <img src="https://img.shields.io/badge/04-GITHUB.COM%2FSAAQIBMOHIDDIN-8B5CF6?style=for-the-badge&logo=github&logoColor=white&labelColor=555555" />
+  </a>
 </p>
 
 <!-- ================= END REPOSITORY & PROJECT LINKS ================= -->
