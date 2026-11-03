@@ -360,14 +360,12 @@ http://localhost:8501
 
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=55&color=0:080B16,50:252044,100:8B5CF6&text=INVESTIGATE%20SMARTER.%20ORGANIZE%20BETTER.&fontSize=16&fontColor=FFFFFF" width="100%"/></div>
 
-10 — PROJECT OBJECTIVES
+## 10 — PROJECT OBJECTIVES
 
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=95&color=0:080B18,45:30205F,100:8957F5&text=PROJECT%20OBJECTIVES&fontColor=FFFFFF&fontSize=27&fontAlignY=50" width="100%"/><br/><img src="https://img.shields.io/badge/PROJECT-CINESHIELD%20AI-8957F5?style=for-the-badge&labelColor=080B18"/>
 <img src="https://img.shields.io/badge/DOMAIN-DIGITAL%20FORENSICS-30205F?style=for-the-badge&labelColor=080B18"/></div>CineShield AI is developed around five primary objectives.
 
 ---
-
-## 10 - PRIMARY OBJECTIVES
 
 <table width="100%">
 <tr>
