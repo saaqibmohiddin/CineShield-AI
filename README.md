@@ -174,35 +174,21 @@ Note: Module names describe the application workspace. Their presence does not i
 
 ---
 
-05 — HOW CINESHIELD WORKS
+## 05 — HOW CINESHIELD WORKS
 
 <p align="center">
-  <img src="https://img.shields.io/badge/CINESHIELD--AI-INVESTIGATION_WORKFLOW-7139D8?style=for-the-badge&labelColor=080B1A"/>
-</p>◈ APPLICATION WORKFLOW
-
+  <img src="https://img.shields.io/badge/CINESHIELD_AI-DIGITAL_INVESTIGATION-7139D8?style=for-the-badge&labelColor=080B1A"/>
+</p><p align="center">
+  <img src="https://img.shields.io/badge/01-REFERENCE-211547?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/02-HASHING-38206F?style=for-the-badge"/>
+</p>
 <p align="center">
-  <img src="https://img.shields.io/badge/01-REFERENCE_MEDIA-211547?style=for-the-badge"/>
-  ↓
-  <img src="https://img.shields.io/badge/02-SHA--256_HASH-38206F?style=for-the-badge"/>
-  ↓
-  <img src="https://img.shields.io/badge/03-CANDIDATE_UPLOAD-512A9C?style=for-the-badge"/>
-  ↓
-  <img src="https://img.shields.io/badge/04-HASH_COMPARISON-7139D8?style=for-the-badge"/>
-  ↓
-  <img src="https://img.shields.io/badge/05-RESULT_&_REPORT-8B5CF6?style=for-the-badge"/>
-</p>◈ INVESTIGATION PROCESS
-
-Stage| Function
-01| Register reference movie
-02| Generate SHA-256 hash
-03| Upload candidate file
-04| Compare file hashes
-05| Record comparison result
-06| Manage evidence and cases
-07| Generate investigation report
-
-<p align="center">
-  <img src="https://img.shields.io/badge/ACCURACY-TRACEABILITY-EVIDENCE_INTEGRITY-7139D8?style=for-the-badge&labelColor=080B1A"/>
+  <img src="https://img.shields.io/badge/03-COMPARISON-512A9C?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/04-REPORT-7139D8?style=for-the-badge"/>
+</p><p align="center">
+  <b>REGISTER → GENERATE HASH → COMPARE → REPORT</b>
+</p><p align="center">
+  <img src="https://img.shields.io/badge/SECURE-TRACEABLE-8B5CF6?style=for-the-badge&labelColor=080B1A"/>
 </p>
 
 <h2 align="center">06 — TECHNOLOGY STACK</h2>
