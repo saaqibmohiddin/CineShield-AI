@@ -280,67 +280,34 @@ Storage directories are created by the application configuration when initialize
 
 ## 08 — DATABASE & EVIDENCE INTEGRITY
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=8&color=8957F5" width="100%" />C I N E S H I E L D   A I
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=65&color=0:080B18,100:8957F5&text=EVIDENCE%20INTEGRITY&fontSize=21&fontColor=FFFFFF" width="100%" />DATABASE "SQLITE"  •  CRYPTOGRAPHY "SHA-256"
 
-DIGITAL EVIDENCE MANAGEMENT SYSTEM
-
-"DATABASE ARCHITECTURE"  •  "FILE INTEGRITY"
-
-</div>---
-
-◇ 01 / DATABASE ARCHITECTURE
-
-SQLITE DATABASE
+</div>◈ DATABASE MANAGEMENT
 
 CineShield AI uses SQLite to maintain structured application records.
 
-DATABASE ENTITY| INFORMATION MAINTAINED
-"movies"| Movie details and reference hashes
-"investigations"| Uploaded files, fingerprints and comparison results
-"records"| Module-specific investigation records
-"evidence"| Evidence information and fingerprints
-"cases"| Case details, priorities and status
+TABLE| DATA
+movies| Movie details and hashes
+investigations| Files and comparison results
+records| Investigation records
+evidence| Evidence and fingerprints
+cases| Case details and status
 
----
-
-◇ 02 / CRYPTOGRAPHIC FINGERPRINTING
-
-<text>SHA-256 — SECURE HASH ALGORITHM</text>
-
-SHA-256 is used to calculate a cryptographic fingerprint for a file.
-
-PYTHON SOURCE
+◈ SHA-256 FINGERPRINTING
 
 import hashlib
 
 def generate_fingerprint(file_data):
     return hashlib.sha256(file_data).hexdigest()
 
----
+◈ FORENSIC VERIFICATION
 
-◇ 03 / FORENSIC INTEGRITY VERIFICATION
+- IDENTICAL HASHES — Indicate identical file bytes, subject to hash security assumptions.
+- DIFFERENT HASHES — Indicate different file bytes.
+- MEDIA ANALYSIS — Different hashes do not prove that media files are unrelated.
+- EVIDENCE REVIEW — Hash comparison alone cannot prove piracy or copyright infringement.
 
-01 — IDENTICAL HASHES
-
-Identical SHA-256 hashes indicate identical file bytes, subject to the security assumptions of the hash algorithm.
-
-02 — DIFFERENT HASHES
-
-Different hashes indicate different file bytes.
-
-03 — MEDIA COMPARISON
-
-Different hashes do not establish that two videos or audio files are unrelated or visually different.
-
-04 — EVIDENCE INTERPRETATION
-
-A hash comparison alone cannot establish copyright infringement or prove piracy.
-
----
-
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=65&color=0:090B19,100:8050E8&text=PROTECT%20THE%20FRAME.%20VERIFY%20THE%20EVIDENCE.&fontSize=12&fontColor=FFFFFF&fontAlignY=50" width="100%" />CINESHIELD AI  |  DIGITAL FORENSICS
-
-</div>
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=45&color=0:080B18,100:8957F5&text=PROTECT%20THE%20FRAME.%20SECURE%20THE%20EVIDENCE.&fontSize=11&fontColor=FFFFFF" width="100%" /></div>
 
 ---
 
@@ -359,7 +326,7 @@ INTERFACE - STREAMLIT
 
 ---
 
-# ◈ INSTALLATION PROCEDURE
+ ◈ INSTALLATION PROCEDURE
 
 01 — CLONE REPOSITORY
 
