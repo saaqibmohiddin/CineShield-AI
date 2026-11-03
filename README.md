@@ -245,11 +245,13 @@ PYTHON　➜　SHA-256 SECURITY　➜　REPORTS
 <br/>
 <img src="https://img.shields.io/badge/04-SECURITY-17132B?style=for-the-badge&labelColor=54249B"/>
 <br/>
-<img src="https://img.shields.io/badge/05-REPORT%20GENERATOR-17132B?style=for-the-badge&labelColor=54249B"/></div>- APPLICATION — Main interface
-- DATABASE — Data storage
-- SCANNER — File analysis
-- SECURITY — SHA-256 hashing
-- REPORTS — Report generation
+<img src="https://img.shields.io/badge/05-REPORT%20GENERATOR-17132B?style=for-the-badge&labelColor=54249B"/></div>
+
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=55&color=0:080B1C,100:8547FF&text=CORE%20MODULES&fontColor=FFFFFF&fontSize=20" width="100%"/>APPLICATION  •  DATABASE  •  SCANNER
+
+SECURITY  •  REPORTS
+
+</div>
 
 ---
 
