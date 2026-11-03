@@ -314,66 +314,59 @@ Important forensic distinction:
 
 09 — INSTALLATION & SETUP
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=100&color=0:080B18,50:392078,100:8957F5&text=INSTALLATION%20%26%20SETUP&fontSize=25&fontColor=FFFFFF&fontAlignY=50&desc=DEPLOY%20THE%20ENVIRONMENT.%20LAUNCH%20THE%20INVESTIGATION.&descSize=9&descAlignY=78" width="100%" /><br/><img src="https://img.shields.io/badge/ENVIRONMENT-PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/INTERFACE-STREAMLIT-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" /></div>---
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=110&color=0:070A18,45:24134E,100:8957F5&text=CINESHIELD%20AI&fontSize=30&fontColor=FFFFFF&fontAlignY=40&desc=SYSTEM%20DEPLOYMENT%20%7C%20INSTALLATION%20PROTOCOL&descSize=10&descAlignY=72" width="100%" /><br/><img src="https://img.shields.io/badge/01-ENVIRONMENT-090B19?style=for-the-badge&labelColor=555555" />
+<img src="https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white" /><img src="https://img.shields.io/badge/02-INTERFACE-090B19?style=for-the-badge&labelColor=555555" />
+<img src="https://img.shields.io/badge/STREAMLIT-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" /></div>---
 
-◈ SYSTEM REQUIREMENTS
+◈  SYSTEM REQUIREMENTS
 
-REQUIREMENT| SPECIFICATION
-Runtime| Python 3.10 or later
+COMPONENT| REQUIREMENT
+Runtime Environment| Python 3.10+
 Version Control| Git
-Code Editor| Visual Studio Code (Recommended)
-Operating System| Windows / macOS / Linux
+Development Environment| Visual Studio Code
+Supported Platforms| Windows / macOS / Linux
 
 ---
 
-◈ INSTALLATION PROCEDURE
+◈  DEPLOYMENT SEQUENCE
 
-01 — CLONE THE REPOSITORY
-
-Download the CineShield AI source code.
+<div align="center"><img src="https://img.shields.io/badge/STEP%2001-REPOSITORY%20ACQUISITION-8957F5?style=for-the-badge" /></div>Clone the official project repository.
 
 git clone https://github.com/saaqibmohiddin/CineShield-AI.git
 
-02 — OPEN THE PROJECT DIRECTORY
+<div align="center"><img src="https://img.shields.io/badge/STEP%2002-PROJECT%20INITIALIZATION-8957F5?style=for-the-badge" /></div>Navigate into the project directory.
 
 cd CineShield-AI
 
-03 — CREATE A VIRTUAL ENVIRONMENT
+<div align="center"><img src="https://img.shields.io/badge/STEP%2003-ENVIRONMENT%20CONFIGURATION-8957F5?style=for-the-badge" /></div>Create an isolated Python environment.
 
 python -m venv venv
 
-04 — ACTIVATE THE ENVIRONMENT
-
-Windows:
+<div align="center"><img src="https://img.shields.io/badge/STEP%2004-ENVIRONMENT%20ACTIVATION-8957F5?style=for-the-badge" /></div>Windows
 
 venv\Scripts\activate
 
-macOS / Linux:
+macOS / Linux
 
 source venv/bin/activate
 
-05 — INSTALL DEPENDENCIES
-
-Install the required Python packages.
+<div align="center"><img src="https://img.shields.io/badge/STEP%2005-DEPENDENCY%20INSTALLATION-8957F5?style=for-the-badge" /></div>Install the required project dependencies.
 
 pip install -r requirements.txt
 
-06 — LAUNCH CINESHIELD AI
-
-Start the Streamlit application.
+<div align="center"><img src="https://img.shields.io/badge/STEP%2006-APPLICATION%20DEPLOYMENT-8957F5?style=for-the-badge" /></div>Launch the CineShield AI interface.
 
 streamlit run app.py
 
-07 — ACCESS THE APPLICATION
-
-Open the local URL displayed in your terminal.
+<div align="center"><img src="https://img.shields.io/badge/STEP%2007-APPLICATION%20ACCESS-8957F5?style=for-the-badge" /></div>Open the application using the local address.
 
 http://localhost:8501
 
 ---
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=65&color=0:080B18,50:392078,100:8957F5&text=INVESTIGATE%20SMARTER.%20ORGANIZE%20BETTER.&fontSize=15&fontColor=FFFFFF&fontAlignY=50" width="100%" /></div>
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=85&color=0:080B18,50:392078,100:8957F5&text=SYSTEM%20READY&fontSize=22&fontColor=FFFFFF&fontAlignY=40&desc=INVESTIGATE%20SMARTER.%20ORGANIZE%20BETTER.&descSize=10&descAlignY=72" width="100%" />CINESHIELD AI • DIGITAL FORENSICS
+
+</div>
 
 ## 10 — PROJECT OBJECTIVES
 
