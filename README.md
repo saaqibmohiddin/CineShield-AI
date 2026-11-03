@@ -314,11 +314,11 @@ Important forensic distinction:
 
 ## 09 — INSTALLATION & SETUP
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=75&color=0:080B18,100:8050E8&text=SYSTEM%20INSTALLATION&fontSize=22&fontColor=FFFFFF&fontAlignY=50" width="100%" /><br/>"ENVIRONMENT"  PYTHON
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=75&color=0:080B18,100:8050E8&text=SYSTEM%20INSTALLATION&fontSize=22&fontColor=FFFFFF&fontAlignY=50" width="100%" /><br/>ENVIRONMENT - PYTHON
 
-"INTERFACE"  STREAMLIT
+INTERFACE - STREAMLIT
 
-</div>◈ SYSTEM REQUIREMENTS
+</div># ◈ SYSTEM REQUIREMENTS
 
 - Python 3.10 or later
 - Git
@@ -327,7 +327,7 @@ Important forensic distinction:
 
 ---
 
-◈ INSTALLATION PROCEDURE
+# ◈ INSTALLATION PROCEDURE
 
 01 — CLONE REPOSITORY
 
@@ -363,11 +363,9 @@ streamlit run app.py
 
 Open the local application URL:
 
-"http://localhost:8501"
+http://localhost:8501
 
 ---
-
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=55&color=0:080B18,100:8050E8&text=INVESTIGATE%20SMARTER.%20ORGANIZE%20BETTER.&fontSize=13&fontColor=FFFFFF&fontAlignY=50" width="100%" /></div>
 
 ## 10 — PROJECT OBJECTIVES
 
