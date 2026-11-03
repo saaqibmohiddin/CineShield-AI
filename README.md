@@ -367,7 +367,7 @@ http://localhost:8501
 
 ---
 
-◈ PRIMARY OBJECTIVES
+## 10 - PRIMARY OBJECTIVES
 
 <table width="100%">
 <tr>
@@ -414,17 +414,12 @@ Generate investigation summaries.
 
 </td>
 </tr>
-</table>---
+</table>
 
-◈ THE MISSION
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=65&color=0:080B18,50:30205F,100:8957F5&text=%20MISSION&fontColor=FFFFFF&fontSize=23&fontAlignY=50" width="100%"/><br/></div>
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=65&color=0:080B18,50:30205F,100:8957F5&text=OUR%20MISSION&fontColor=FFFFFF&fontSize=23&fontAlignY=50" width="100%"/><br/></div>To develop a modern digital investigation environment that makes movie-related evidence organization more structured, accessible and efficient.
+To develop a modern digital investigation environment that makes movie-related evidence organization more structured, accessible and efficient.
 
----
-
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=75&color=0:8957F5,50:30205F,100:080B18&text=INTELLIGENCE%20WITH%20INTEGRITY&fontColor=FFFFFF&fontSize=19&fontAlignY=50" width="100%"/>◈ C I N E S H I E L D  A I ◈
-
-INVESTIGATION WITH PURPOSE.
 
 </div>
 
