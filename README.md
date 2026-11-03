@@ -420,7 +420,7 @@ These are potential enhancements, not claims of currently implemented functional
   <img src="https://img.shields.io/badge/VISION-INTELLIGENT%20MEDIA%20INVESTIGATION-8B5CF6?style=for-the-badge&labelColor=080B16" />
 </p><p align="center">
   The long-term vision of <b>CineShield AI</b> is to evolve into a comprehensive digital media investigation environment, combining intelligent analysis, advanced forensic techniques, and reliable evidence traceability.
-</p>---
+</p>
 
 ◈ FUTURE DEVELOPMENT ROADMAP
 
@@ -461,7 +461,7 @@ These are potential enhancements, not claims of currently implemented functional
 </p>
 <p align="center">Advanced investigation insights and analytical capabilities.</p></td>
 </tr>
-</table>---
+</table>
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&height=85&color=0:080B16,50:252044,100:8B5CF6&text=INVESTIGATE%20BEYOND%20THE%20FRAME.&fontColor=FFFFFF&fontSize=20" width="100%" />
