@@ -137,7 +137,7 @@ def save_record(module, title, details, status="Pending"):
         (module, title, details, status, created_at)
         VALUES (?, ?, ?, ?, ?)
     """, (
-        title,
+        module,
         title,
         details,
         status,
