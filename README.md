@@ -452,15 +452,12 @@ SPECIALIZATION IN ARTIFICIAL INTELLIGENCE
 
 </div>---
 
-15 — <!-- ================= REPOSITORY & PROJECT LINKS ================= -->
-
-<h2 align="center">
-  ◈ 15 — REPOSITORY & PROJECT LINKS
+## ◈ EXPLORE & CONNECT
 </h2>
 
 <p align="center">
   <img src="https://img.shields.io/badge/PROJECT-CINESHIELD%20AI-8B5CF6?style=for-the-badge&labelColor=080B16" />
-  <img src="https://img.shields.io/badge/INTERFACE-DARK%20CINEMATIC-252044?style=for-the-badge&labelColor=080B16" />
+  <img src="https://img.shields.io/badge/INTERFACE-DIGITAL%20FORENSIC-252044?style=for-the-badge&labelColor=080B16" />
 </p>
 
 <p align="center">
