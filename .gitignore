@@ -1,0 +1,47 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local databases and private data
+*.db
+*.sqlite
+*.sqlite3
+
+# Secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Private evidence and uploaded media
+evidence/*
+!evidence/.gitkeep
+samples/*
+!samples/.gitkeep
+watermarks/*
+!watermarks/.gitkeep
+data/*
+!data/.gitkeep
+
+# Generated reports
+reports/*
+!reports/.gitkeep
+
+# Video and audio files
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.mp3
+*.wav
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
