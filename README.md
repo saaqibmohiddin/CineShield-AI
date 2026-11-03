@@ -278,37 +278,60 @@ Storage directories are created by the application configuration when initialize
 
 ---
 
-08 — DATABASE & EVIDENCE INTEGRITY
+## 08 — DATABASE & EVIDENCE INTEGRITY
 
-<div align="center"><img src="https://img.shields.io/badge/DATABASE-SQLITE-003B57?style=for-the-badge&logo=sqlite&logoColor=white"/>
-<img src="https://img.shields.io/badge/CRYPTOGRAPHY-SHA--256-8B5CF6?style=for-the-badge&logo=letsencrypt&logoColor=white"/>A STRUCTURED APPROACH TO DIGITAL EVIDENCE
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=85&color=0:080B18,50:30205F,100:8957F5&text=DATABASE%20%26%20EVIDENCE%20INTEGRITY&fontSize=20&fontColor=FFFFFF&fontAlignY=50" width="100%" /><br/>"DATABASE" (https://img.shields.io/badge/DATABASE-SQLITE-087EA4?style=for-the-badge&logo=sqlite&logoColor=white)
+"CRYPTOGRAPHY" (https://img.shields.io/badge/CRYPTOGRAPHY-SHA--256-8957F5?style=for-the-badge)
 
-</div>CineShield AI uses SQLite to maintain structured application records.
+</div>◈ STRUCTURED APPROACH TO DIGITAL EVIDENCE
 
-Database Entities
+CineShield AI uses SQLite to maintain structured application records.
 
-TABLE| DATA STORED
+◈ DATABASE ENTITIES
+
+DATABASE TABLE| DATA STORED
 "movies"| Movie details and reference hashes
 "investigations"| Uploaded files, fingerprints and comparison results
 "records"| Module-specific investigation records
 "evidence"| Evidence information and fingerprints
 "cases"| Case details, priorities and status
 
-SHA-256 Fingerprinting
+---
+
+◈ SHA-256 FINGERPRINTING
 
 SHA-256 is used to calculate a cryptographic fingerprint for a file.
+
+PYTHON IMPLEMENTATION
 
 import hashlib
 
 def generate_fingerprint(file_data):
     return hashlib.sha256(file_data).hexdigest()
 
-Important forensic distinction:
+◈ FORENSIC INTEGRITY VERIFICATION
 
-- Identical SHA-256 hashes indicate identical file bytes, subject to the security assumptions of the hash algorithm.
-- Different hashes indicate different file bytes.
-- Different hashes do not establish that two videos or audio files are unrelated or visually different.
-- A hash comparison alone cannot establish copyright infringement or prove piracy.
+01 — IDENTICAL HASHES
+
+Identical SHA-256 hashes indicate identical file bytes, subject to the security assumptions of the hash algorithm.
+
+02 — DIFFERENT HASHES
+
+Different hashes indicate different file bytes.
+
+03 — MEDIA COMPARISON
+
+Different hashes do not establish that two videos or audio files are unrelated or visually different.
+
+04 — EVIDENCE INTERPRETATION
+
+A hash comparison alone cannot establish copyright infringement or prove piracy.
+
+---
+
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=65&color=0:080B18,50:30205F,100:8957F5&text=PROTECT%20THE%20EVIDENCE.%20VERIFY%20THE%20INTEGRITY.&fontSize=13&fontColor=FFFFFF&fontAlignY=50" width="100%" />CINESHIELD AI • DIGITAL FORENSICS
+
+</div>
 
 ---
 
