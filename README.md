@@ -192,7 +192,7 @@ Structured investigation summaries and reporting.
 
 ---
 
-## 07 — SYSTEM ARCHITECTURE
+## 06 — SYSTEM ARCHITECTURE
 
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=100&color=0:080B1C,50:32116D,100:9147FF&text=SYSTEM%20ARCHITECTURE&fontColor=FFFFFF&fontSize=28&fontAlignY=50" width="100%"/><br/><img src="https://img.shields.io/badge/FRONTEND-STREAMLIT-7047EB?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/BACKEND-PYTHON-3776AB?style=for-the-badge"/>
@@ -224,7 +224,7 @@ SECURITY  •  REPORTS
 
 ---
 
-## 08 — DATABASE & EVIDENCE INTEGRITY
+## 07 — DATABASE & EVIDENCE INTEGRITY
 
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=65&color=0:080B18,100:8957F5&text=EVIDENCE%20INTEGRITY&fontSize=21&fontColor=FFFFFF" width="100%" />DATABASE  |  SQLITE
 
@@ -252,7 +252,7 @@ def generate_fingerprint(file_data):
 
 ---
 
-## 09 — INSTALLATION & SETUP
+## 08 — INSTALLATION & SETUP
 
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=75&color=0:080B18,100:8050E8&text=SYSTEM%20INSTALLATION&fontSize=22&fontColor=FFFFFF&fontAlignY=50" width="100%" /><br/>ENVIRONMENT - PYTHON
 
@@ -307,7 +307,7 @@ http://localhost:8501
 
 ---
 
-## 10 — PROJECT OBJECTIVES
+## 09 — PROJECT OBJECTIVES
 
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=95&color=0:080B18,45:30205F,100:8957F5&text=PROJECT%20OBJECTIVES&fontColor=FFFFFF&fontSize=27&fontAlignY=50" width="100%"/><br/><img src="https://img.shields.io/badge/PROJECT-CINESHIELD%20AI-8957F5?style=for-the-badge&labelColor=080B18"/>
 <img src="https://img.shields.io/badge/DOMAIN-DIGITAL%20FORENSICS-30205F?style=for-the-badge&labelColor=080B18"/></div>CineShield AI is developed around five primary objectives.
@@ -370,7 +370,7 @@ To develop a modern digital investigation environment that makes movie-related e
 
 ---
 
-## 11 — SECURITY & RESPONSIBLE USAGE
+## 10 — SECURITY & RESPONSIBLE USAGE
 
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=85&color=0:080B18,45:30205F,100:8957F5&text=PROTECT%20THE%20FRAME&fontColor=FFFFFF&fontSize=25&fontAlignY=50" width="100%"/><br/><img src="https://img.shields.io/badge/SECURITY-DIGITAL%20FORENSICS-8957F5?style=for-the-badge&labelColor=090B18"/>
 <img src="https://img.shields.io/badge/ACCESS-AUTHORIZED-30205F?style=for-the-badge&labelColor=090B18"/><br/><br/>
@@ -421,7 +421,7 @@ To develop a modern digital investigation environment that makes movie-related e
 
 ---
 
-## 12 — CURRENT PROJECT STATUS
+## 11 — CURRENT PROJECT STATUS
 
 <div align="center"><img src="https://img.shields.io/badge/PROJECT-DEVELOPMENT%20EDITION-8B5CF6?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/PLATFORM-OPEN%20SOURCE-252044?style=for-the-badge&logo=github&logoColor=white"/></div>CineShield AI is an evolving development project.
@@ -443,7 +443,7 @@ These are potential enhancements, not claims of currently implemented functional
 
 ---
 
-## 13 — FUTURE VISION
+## 12 — FUTURE VISION
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&height=100&color=0:080B16,45:252044,100:8B5CF6&text=THE%20FUTURE%20OF%20CINESHIELD%20AI&fontColor=FFFFFF&fontSize=22&fontAlignY=50" width="100%" />
@@ -515,7 +515,7 @@ These are potential enhancements, not claims of currently implemented functional
 
 </div>
 
-## 15 - EXPLORE & CONNECT
+## 13 - EXPLORE & CONNECT
 </h2>
 
 <p align="center">
