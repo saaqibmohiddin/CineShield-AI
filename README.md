@@ -452,24 +452,46 @@ SPECIALIZATION IN ARTIFICIAL INTELLIGENCE
 
 </div>---
 
-15 — REPOSITORY & PROJECT LINKS
+15 — <!-- ================= REPOSITORY & PROJECT LINKS ================= -->
 
-<div align="center"><a href="https://github.com/saaqibmohiddin/CineShield-AI">
-<img src="https://img.shields.io/badge/01-EXPLORE%20REPOSITORY-8B5CF6?style=for-the-badge&logo=github&logoColor=white"/>
-</a><a href="https://github.com/saaqibmohiddin/CineShield-AI/blob/main/app.py">
-<img src="https://img.shields.io/badge/02-VIEW%20PYTHON%20SOURCE-252044?style=for-the-badge&logo=python&logoColor=white"/>
-</a><a href="https://github.com/saaqibmohiddin/CineShield-AI/blob/main/index.html">
-<img src="https://img.shields.io/badge/03-VIEW%20HTML%20DEMO-11182B?style=for-the-badge&logo=html5&logoColor=white"/>
-</a><a href="https://github.com/saaqibmohiddin">
-<img src="https://img.shields.io/badge/04-VISIT%20DEVELOPER%20PROFILE-8B5CF6?style=for-the-badge&logo=github&logoColor=white"/>
-</a></div>---
+<h2 align="center">
+  ◈ 15 — REPOSITORY & PROJECT LINKS
+</h2>
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&height=180&section=footer&color=0:080B16,35:11182B,70:252044,100:8B5CF6&text=PROTECT%20THE%20FRAME.&fontSize=28&fontColor=FFFFFF&fontAlignY=43&desc=TRACE%20THE%20SOURCE.%20SECURE%20THE%20EVIDENCE.&descSize=13&descAlignY=65" width="100%"/>◈ C I N E S H I E L D   A I ◈
+<p align="center">
+  <img src="https://img.shields.io/badge/PROJECT-CINESHIELD%20AI-8B5CF6?style=for-the-badge&labelColor=080B16" />
+  <img src="https://img.shields.io/badge/INTERFACE-DARK%20CINEMATIC-252044?style=for-the-badge&labelColor=080B16" />
+</p>
 
-INTELLIGENCE WITH INTEGRITY. INVESTIGATION WITH PURPOSE.
+<p align="center">
+  <a href="https://github.com/saaqibmohiddin/CineShield-AI">
+    <img src="https://img.shields.io/badge/01-EXPLORE%20REPOSITORY-8B5CF6?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
 
-<sub>Developed by Mohammed Saaqib Mohiddin</sub>
+<p align="center">
+  <a href="https://github.com/saaqibmohiddin/CineShield-AI/blob/main/app.py">
+    <img src="https://img.shields.io/badge/02-VIEW%20PYTHON%20SOURCE-252044?style=for-the-badge&logo=python&logoColor=white" />
+  </a>
+</p>
 
-<sub>© 2026 CineShield AI. All rights reserved.</sub>
+<p align="center">
+  <a href="https://github.com/saaqibmohiddin/CineShield-AI/blob/main/index.html">
+    <img src="https://img.shields.io/badge/03-VIEW%20HTML%20DEMO-11182B?style=for-the-badge&logo=html5&logoColor=white" />
+  </a>
+</p>
 
-</div>
+<p align="center">
+  <a href="https://github.com/saaqibmohiddin">
+    <img src="https://img.shields.io/badge/04-VISIT%20DEVELOPER%20PROFILE-8B5CF6?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=100&color=0:252044,45:8B5CF6,100:080B16&text=PROTECT%20THE%20FRAME.&fontColor=FFFFFF&fontSize=24&fontAlignY=42&desc=TRACE%20THE%20SOURCE.%20SECURE%20THE%20EVIDENCE.&descSize=11&descAlignY=70" />
+</p>
+
+<!-- ================= END REPOSITORY & PROJECT LINKS ================= -->
+
