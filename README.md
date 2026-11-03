@@ -412,21 +412,60 @@ These are potential enhancements, not claims of currently implemented functional
 
 ---
 
-13 — FUTURE VISION
+## 13 — FUTURE VISION
 
-<div align="center">BEYOND ORDINARY MEDIA INVESTIGATION
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=100&color=0:080B16,45:252044,100:8B5CF6&text=THE%20FUTURE%20OF%20CINESHIELD%20AI&fontColor=FFFFFF&fontSize=22&fontAlignY=50" width="100%" />
+</p><h2 align="center">BEYOND ORDINARY MEDIA INVESTIGATION</h2><h3 align="center">FROM FILE FINGERPRINTS TO INTELLIGENT DIGITAL FORENSICS</h3><p align="center">
+  <img src="https://img.shields.io/badge/VISION-INTELLIGENT%20MEDIA%20INVESTIGATION-8B5CF6?style=for-the-badge&labelColor=080B16" />
+</p><p align="center">
+  The long-term vision of <b>CineShield AI</b> is to evolve into a comprehensive digital media investigation environment, combining intelligent analysis, advanced forensic techniques, and reliable evidence traceability.
+</p>---
 
-FROM FILE FINGERPRINTS TO INTELLIGENT DIGITAL FORENSICS
+◈ FUTURE DEVELOPMENT ROADMAP
 
-</div>The long-term vision of CineShield AI is to evolve into a comprehensive digital media investigation environment combining:
+<table>
+<tr>
+<td width="50%" valign="top"><h3 align="center">01 — VISION AI</h3>
+<p align="center">
+<img src="https://img.shields.io/badge/INTELLIGENT%20MEDIA%20ANALYSIS-8B5CF6?style=for-the-badge&labelColor=080B16" />
+</p>
+<p align="center">AI-powered media understanding and intelligent visual investigation.</p></td>
+<td width="50%" valign="top"><h3 align="center">02 — VIDEO FORENSICS</h3>
+<p align="center">
+<img src="https://img.shields.io/badge/ADVANCED%20VIDEO%20ANALYSIS-8B5CF6?style=for-the-badge&labelColor=080B16" />
+</p>
+<p align="center">Similarity detection and frame-level forensic investigation.</p></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><h3 align="center">03 — AUDIO INTELLIGENCE</h3>
+<p align="center">
+<img src="https://img.shields.io/badge/AUDIO%20FINGERPRINTING-8B5CF6?style=for-the-badge&labelColor=080B16" />
+</p>
+<p align="center">Advanced audio fingerprint analysis and sound verification.</p></td>
+<td width="50%" valign="top"><h3 align="center">04 — WATERMARK INTELLIGENCE</h3>
+<p align="center">
+<img src="https://img.shields.io/badge/WATERMARK%20EXAMINATION-8B5CF6?style=for-the-badge&labelColor=080B16" />
+</p>
+<p align="center">Advanced watermark detection and examination.</p></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><h3 align="center">05 — EVIDENCE TRACEABILITY</h3>
+<p align="center">
+<img src="https://img.shields.io/badge/EVIDENCE%20PROVENANCE-8B5CF6?style=for-the-badge&labelColor=080B16" />
+</p>
+<p align="center">Stronger evidence history, integrity tracking, and provenance.</p></td>
+<td width="50%" valign="top"><h3 align="center">06 — INVESTIGATION ANALYTICS</h3>
+<p align="center">
+<img src="https://img.shields.io/badge/FORENSIC%20INSIGHTS-8B5CF6?style=for-the-badge&labelColor=080B16" />
+</p>
+<p align="center">Advanced investigation insights and analytical capabilities.</p></td>
+</tr>
+</table>---
 
-FUTURE DIRECTION| VISION
-AI Media Intelligence| Intelligent media analysis
-Advanced Video Forensics| Similarity and frame-level investigation
-Audio Intelligence| Audio fingerprint analysis
-Watermark Intelligence| Advanced watermark examination
-Evidence Traceability| Stronger evidence history and provenance
-Investigation Analytics| Advanced investigation insights
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=85&color=0:080B16,50:252044,100:8B5CF6&text=INVESTIGATE%20BEYOND%20THE%20FRAME.&fontColor=FFFFFF&fontSize=20" width="100%" />
+</p><h3 align="center">INTELLIGENCE WITH INTEGRITY. INVESTIGATION WITH PURPOSE.</h3><p align="center"><b>CINESHIELD AI — THE FUTURE OF DIGITAL MEDIA FORENSICS</b></p>
 
 ---
 
