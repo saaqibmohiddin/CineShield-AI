@@ -88,7 +88,7 @@ Typography| Modern, high-contrast
 Layout| Structured and minimal
 Identity| Digital Forensics Aesthetic
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=45&color=0:080B16,50:252044,100:8B5CF6&text=ONE%20DESIGN%20LANGUAGE%20ACROSS%20EVERY%20SECTION&fontSize=14&fontColor=FFFFFF" width="100%"/></div>03 — THE CINESHIELD ECOSYSTEM
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=45&color=0:080B16,50:252044,100:8B5CF6&text=ONE%20DESIGN%20LANGUAGE%20ACROSS%20EVERY%20SECTION&fontSize=14&fontColor=FFFFFF" width="100%"/></div>## 03 — THE CINESHIELD ECOSYSTEM
 
 <table>
 <tr>
