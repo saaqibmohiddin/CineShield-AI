@@ -2,366 +2,736 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#080d1a">
+<meta name="description" content="CineShield AI - Interactive movie investigation and evidence management platform.">
+<title>CineShield AI | Movie Investigation Platform</title>
 
-    <title>CineShield AI | Intelligent Movie Investigation</title>
+<style>
+:root {
+  --bg: #080d1a;
+  --panel: #111c32;
+  --panel2: #172442;
+  --border: #293c61;
+  --text: #edf1ff;
+  --muted: #aab7d1;
+  --purple: #8968ff;
+  --purple2: #7048e8;
+  --danger: #ff6377;
+  --success: #42d6a4;
+  --radius: 15px;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: Inter, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+button, input, select, textarea { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+a { color: inherit; text-decoration: none; }
+button { cursor: pointer; }
+.container { width: min(1120px, 90%); margin: auto; }
+nav {
+  position: sticky; top: 0; z-index: 50;
+  background: rgba(8,13,26,.94);
+  backdrop-filter: blur(15px);
+  border-bottom: 1px solid var(--border);
+}
+.nav-inner {
+  min-height: 76px; display: flex;
+  justify-content: space-between; align-items: center;
+  gap: 20px;
+}
+.logo { font-size: 23px; font-weight: 850; letter-spacing: -.8px; }
+.logo span, .accent { color: var(--purple); }
+.nav-links { display: flex; align-items: center; gap: 25px; }
+.nav-links a { color: var(--muted); font-size: 14px; }
+.nav-links a:hover { color: white; }
+.nav-actions { display: flex; gap: 10px; align-items: center; }
+.menu-btn { display: none; }
+.btn {
+  border: 1px solid transparent; border-radius: 9px;
+  padding: 11px 17px; display: inline-flex;
+  align-items: center; justify-content: center; gap: 7px;
+  font-weight: 700; font-size: 14px;
+  transition: .2s;
+}
+.btn:hover { transform: translateY(-2px); }
+.primary { background: var(--purple2); color: white; }
+.primary:hover { background: var(--purple); }
+.secondary { border-color: var(--border); color: white; background: var(--panel); }
+.secondary:hover { background: var(--panel2); }
+.danger { background: rgba(255,99,119,.12); color: #ff8b9a; border-color: rgba(255,99,119,.3); }
+.small { padding: 7px 11px; font-size: 12px; }
+.hero {
+  min-height: 570px; display: grid; place-items: center;
+  text-align: center; padding: 85px 0;
+  background: radial-gradient(ellipse at 50% 0%, #292054 0%, var(--bg) 65%);
+}
+.tag {
+  display: inline-block; border: 1px solid #604bb0;
+  border-radius: 30px; padding: 7px 15px;
+  color: #c8baff; font-size: 11px; letter-spacing: 2px;
+  margin-bottom: 25px;
+}
+h1 { font-size: clamp(40px, 7vw, 76px); line-height: 1.08; letter-spacing: -2px; }
+.hero p { color: var(--muted); max-width: 680px; margin: 22px auto 30px; font-size: 17px; }
+.hero-actions { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
+section { padding: 75px 0; }
+.section-title { font-size: clamp(27px,4vw,37px); text-align: center; margin-bottom: 10px; }
+.section-desc { color: var(--muted); text-align: center; max-width: 680px; margin: 0 auto 35px; }
+.dashboard { background: #0d1528; }
+.stats {
+  display: grid; grid-template-columns: repeat(4,1fr);
+  gap: 16px; margin-bottom: 35px;
+}
+.stat {
+  background: var(--panel); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 22px;
+}
+.stat-label { color: var(--muted); font-size: 13px; }
+.stat-number { font-size: 31px; font-weight: 800; margin-top: 5px; }
+.stat-icon { font-size: 23px; }
+.section-heading {
+  display: flex; justify-content: space-between;
+  align-items: center; gap: 15px; flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.search {
+  background: var(--panel); color: white;
+  border: 1px solid var(--border); border-radius: 9px;
+  padding: 11px 14px; width: min(100%,280px);
+}
+.features {
+  display: grid; grid-template-columns: repeat(3,1fr); gap: 18px;
+}
+.feature {
+  background: var(--panel); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 25px;
+  transition: .25s; cursor: pointer;
+}
+.feature:hover { transform: translateY(-5px); border-color: var(--purple); }
+.feature-icon { font-size: 32px; margin-bottom: 13px; }
+.feature h3 { margin-bottom: 8px; }
+.feature p { color: var(--muted); font-size: 14px; min-height: 47px; }
+.feature button { margin-top: 17px; }
+.about { background: #0d1528; text-align: center; }
+.about p { color: var(--muted); max-width: 760px; margin: auto; }
+.tech { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin-top: 25px; }
+.tech span { background: var(--panel2); border: 1px solid var(--border); border-radius: 7px; padding: 8px 14px; color: #cbbdff; font-size: 13px; }
+footer { border-top: 1px solid var(--border); padding: 28px 0; text-align: center; color: var(--muted); font-size: 13px; }
+footer a { color: #b8a7ff; }
+.hidden { display: none !important; }
 
-    <meta name="description" content="CineShield AI - A movie investigation and evidence management application built with Python and Streamlit.">
+/* Modal and module interface */
+.modal {
+  position: fixed; inset: 0; z-index: 100;
+  background: rgba(0,0,0,.78); display: none;
+  align-items: center; justify-content: center;
+  padding: 15px;
+}
+.modal.open { display: flex; }
+.modal-box {
+  width: min(850px,100%); max-height: 90vh; overflow-y: auto;
+  background: #0d172b; border: 1px solid var(--border);
+  border-radius: 17px; padding: 25px;
+  box-shadow: 0 25px 90px rgba(0,0,0,.5);
+}
+.modal-head {
+  display: flex; justify-content: space-between;
+  align-items: center; gap: 15px; margin-bottom: 20px;
+}
+.close {
+  border: 1px solid var(--border); background: var(--panel);
+  color: white; width: 38px; height: 38px;
+  border-radius: 9px; font-size: 20px;
+}
+.form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 13px; }
+.field { display: flex; flex-direction: column; gap: 6px; margin-bottom: 13px; }
+.field.full { grid-column: 1/-1; }
+.field label { color: var(--muted); font-size: 13px; }
+.field input, .field select, .field textarea {
+  width: 100%; background: var(--panel);
+  color: white; border: 1px solid var(--border);
+  border-radius: 8px; padding: 11px 12px; outline: none;
+}
+.field input:focus, .field select:focus, .field textarea:focus { border-color: var(--purple); }
+.field textarea { min-height: 85px; resize: vertical; }
+.module-actions { display: flex; flex-wrap: wrap; gap: 9px; margin: 16px 0; }
+.table-wrap { overflow-x: auto; margin-top: 20px; }
+table { width: 100%; border-collapse: collapse; min-width: 520px; }
+th, td { text-align: left; padding: 12px 10px; border-bottom: 1px solid var(--border); font-size: 13px; }
+th { color: #c6baff; }
+td { color: #d8e0f2; }
+.empty { text-align: center; color: var(--muted); padding: 25px; }
+.notice {
+  border: 1px solid #594a9b; background: rgba(112,72,232,.10);
+  color: #d4caff; border-radius: 9px;
+  padding: 12px 14px; font-size: 13px; margin: 14px 0;
+}
+.toast {
+  position: fixed; z-index: 200; bottom: 22px; left: 50%;
+  transform: translate(-50%,20px); opacity: 0;
+  background: #1c2b46; border: 1px solid var(--border);
+  color: white; padding: 12px 20px; border-radius: 10px;
+  transition: .25s; pointer-events: none; max-width: 90%;
+}
+.toast.show { opacity: 1; transform: translate(-50%,0); }
+.status { padding: 4px 8px; border-radius: 20px; font-size: 11px; background: #263653; }
+.status.active { color: var(--success); }
+.status.closed { color: #b9c4dc; }
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            background: #080d1a;
-            color: #e8eeff;
-            line-height: 1.6;
-        }
-
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 22px 8%;
-            border-bottom: 1px solid #263b65;
-        }
-
-        .logo {
-            font-size: 23px;
-            font-weight: bold;
-            color: #ffffff;
-        }
-
-        .logo span {
-            color: #9270ff;
-        }
-
-        nav a {
-            color: #d6ddf0;
-            text-decoration: none;
-            font-size: 14px;
-        }
-
-        .hero {
-            min-height: 570px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 80px 20px;
-            background:
-                radial-gradient(ellipse at top, #252052 0%, #080d1a 65%);
-        }
-
-        .tag {
-            color: #b9a5ff;
-            border: 1px solid #6548b9;
-            padding: 7px 18px;
-            border-radius: 30px;
-            font-size: 12px;
-            letter-spacing: 2px;
-            margin-bottom: 25px;
-        }
-
-        h1 {
-            font-size: clamp(38px, 7vw, 72px);
-            line-height: 1.1;
-            margin-bottom: 22px;
-        }
-
-        h1 span {
-            color: #9878ff;
-        }
-
-        .hero p {
-            max-width: 650px;
-            color: #b9c4dc;
-            font-size: 17px;
-            margin-bottom: 32px;
-        }
-
-        .buttons {
-            display: flex;
-            gap: 15px;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        .btn {
-            display: inline-block;
-            padding: 13px 25px;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: 0.3s;
-        }
-
-        .primary {
-            background: #7048e8;
-            color: white;
-        }
-
-        .primary:hover {
-            background: #8968ff;
-            transform: translateY(-3px);
-        }
-
-        .secondary {
-            border: 1px solid #53658c;
-            color: white;
-        }
-
-        .secondary:hover {
-            background: #172442;
-        }
-
-        section {
-            padding: 75px 8%;
-        }
-
-        .section-title {
-            text-align: center;
-            font-size: 34px;
-            margin-bottom: 15px;
-        }
-
-        .section-description {
-            text-align: center;
-            color: #aab7d1;
-            max-width: 650px;
-            margin: 0 auto 45px;
-        }
-
-        .features {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-            gap: 22px;
-        }
-
-        .card {
-            background: #111c32;
-            border: 1px solid #263b65;
-            padding: 28px;
-            border-radius: 14px;
-            transition: 0.3s;
-        }
-
-        .card:hover {
-            transform: translateY(-5px);
-            border-color: #8060ed;
-        }
-
-        .card .icon {
-            font-size: 32px;
-            margin-bottom: 15px;
-        }
-
-        .card h3 {
-            margin-bottom: 10px;
-            color: #ffffff;
-        }
-
-        .card p {
-            color: #aab7d1;
-            font-size: 14px;
-        }
-
-        .about {
-            background: #0d1528;
-            text-align: center;
-        }
-
-        .about p {
-            max-width: 750px;
-            margin: auto;
-            color: #b9c4dc;
-        }
-
-        .tech {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 12px;
-            margin-top: 30px;
-        }
-
-        .tech span {
-            padding: 9px 17px;
-            border-radius: 7px;
-            background: #172442;
-            border: 1px solid #344b75;
-            color: #cbbdff;
-            font-size: 14px;
-        }
-
-        footer {
-            text-align: center;
-            padding: 30px 15px;
-            border-top: 1px solid #263b65;
-            color: #8795b2;
-            font-size: 13px;
-        }
-
-        footer a {
-            color: #a88cff;
-            text-decoration: none;
-        }
-
-        @media (max-width: 600px) {
-            nav {
-                padding: 18px 5%;
-            }
-
-            section {
-                padding: 55px 6%;
-            }
-
-            .hero {
-                min-height: 500px;
-            }
-        }
-    </style>
+@media(max-width:850px) {
+  .features { grid-template-columns: repeat(2,1fr); }
+  .stats { grid-template-columns: repeat(2,1fr); }
+}
+@media(max-width:650px) {
+  .nav-inner { min-height: 67px; }
+  .menu-btn { display: inline-flex; }
+  .nav-links {
+    display: none; position: absolute; top: 67px; left: 0; right: 0;
+    padding: 20px 5%; background: #0d172b;
+    border-bottom: 1px solid var(--border);
+    flex-direction: column; align-items: flex-start;
+  }
+  .nav-links.show { display: flex; }
+  .nav-actions .secondary { display: none; }
+  .features { grid-template-columns: 1fr; }
+  .hero { min-height: 500px; }
+  .form-grid { grid-template-columns: 1fr; }
+  .field.full { grid-column: auto; }
+  .modal-box { padding: 18px; }
+  section { padding: 55px 0; }
+}
+</style>
 </head>
 
 <body>
 
-    <nav>
-        <div class="logo">CINE<span>SHIELD</span> AI</div>
-        <a href="https://github.com/saaqibmohiddin/CineShield-AI"
-           target="_blank">GitHub ↗</a>
-    </nav>
+<nav>
+  <div class="container nav-inner">
+    <a class="logo" href="#home">CINE<span>SHIELD</span> AI</a>
+    <div class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#dashboard">Dashboard</a>
+      <a href="#features">Features</a>
+      <a href="#about">About</a>
+    </div>
+    <div class="nav-actions">
+      <a class="btn secondary small" href="https://github.com/saaqibmohiddin/CineShield-AI" target="_blank" rel="noopener">GitHub ↗</a>
+      <button class="btn primary small menu-btn" id="menuBtn" aria-label="Open navigation">☰</button>
+    </div>
+  </div>
+</nav>
 
-    <header class="hero">
-        <div class="tag">PYTHON • STREAMLIT • INVESTIGATION</div>
+<header class="hero" id="home">
+  <div class="container">
+    <div class="tag">PYTHON • STREAMLIT • INVESTIGATION</div>
+    <h1>Welcome to<br><span class="accent">CineShield AI</span></h1>
+    <p>
+      An interactive movie investigation and evidence management
+      demo. Organize movie records, investigations, evidence
+      and cases in one place.
+    </p>
+    <div class="hero-actions">
+      <button class="btn primary" data-open="movies">Launch Demo Application →</button>
+      <a class="btn secondary" href="https://github.com/saaqibmohiddin/CineShield-AI" target="_blank" rel="noopener">Explore GitHub ↗</a>
+    </div>
+    <p style="font-size:12px;margin-top:18px">
+      Browser-based demonstration • No backend connection
+    </p>
+  </div>
+</header>
 
-        <h1>Welcome to <span>CineShield AI</span></h1>
+<section class="dashboard" id="dashboard">
+  <div class="container">
+    <h2 class="section-title">Application Dashboard</h2>
+    <p class="section-desc">Your locally saved demo activity at a glance.</p>
+    <div class="stats">
+      <div class="stat"><div class="stat-icon">🎬</div><div class="stat-label">Movies</div><div class="stat-number" id="movieCount">0</div></div>
+      <div class="stat"><div class="stat-icon">🔍</div><div class="stat-label">Investigations</div><div class="stat-number" id="investigationCount">0</div></div>
+      <div class="stat"><div class="stat-icon">🛡️</div><div class="stat-label">Evidence Files</div><div class="stat-number" id="evidenceCount">0</div></div>
+      <div class="stat"><div class="stat-icon">📁</div><div class="stat-label">Cases</div><div class="stat-number" id="caseCount">0</div></div>
+    </div>
+    <div class="section-heading">
+      <h3>Quick Actions</h3>
+      <button class="btn secondary small" data-open="reports">View Reports →</button>
+    </div>
+    <div class="hero-actions" style="justify-content:flex-start">
+      <button class="btn primary" data-open="movies">+ Add Movie</button>
+      <button class="btn secondary" data-open="investigations">+ Investigation</button>
+      <button class="btn secondary" data-open="evidence">+ Upload Evidence</button>
+      <button class="btn secondary" data-open="cases">+ Create Case</button>
+    </div>
+  </div>
+</section>
 
-        <p>
-            A movie investigation and evidence management application
-            designed to organize movie records, investigations,
-            digital evidence and case information in one place.
-        </p>
+<section id="features">
+  <div class="container">
+    <h2 class="section-title">Project Features</h2>
+    <p class="section-desc">Select any module to open its interactive demonstration.</p>
+    <div class="section-heading">
+      <h3>Application Modules</h3>
+      <input class="search" id="featureSearch" type="search" placeholder="Search features...">
+    </div>
+    <div class="features" id="featureGrid">
+      <article class="feature" data-module="movies" data-search="movie management films records">
+        <div class="feature-icon">🎬</div><h3>Movie Management</h3>
+        <p>Add, view and delete movie reference records.</p>
+        <button class="btn secondary small" data-open="movies">Open Module →</button>
+      </article>
+      <article class="feature" data-module="investigations" data-search="investigation records search">
+        <div class="feature-icon">🔍</div><h3>Investigation Records</h3>
+        <p>Create and maintain investigation information.</p>
+        <button class="btn secondary small" data-open="investigations">Open Module →</button>
+      </article>
+      <article class="feature" data-module="evidence" data-search="evidence file hash sha256 upload">
+        <div class="feature-icon">🛡️</div><h3>Evidence Management</h3>
+        <p>Upload demo evidence and calculate SHA-256 hashes.</p>
+        <button class="btn secondary small" data-open="evidence">Open Module →</button>
+      </article>
+      <article class="feature" data-module="cases" data-search="case management priority status">
+        <div class="feature-icon">📁</div><h3>Case Management</h3>
+        <p>Create cases and update their priority and status.</p>
+        <button class="btn secondary small" data-open="cases">Open Module →</button>
+      </article>
+      <article class="feature" data-module="reports" data-search="reports export csv json">
+        <div class="feature-icon">📊</div><h3>Reports & Records</h3>
+        <p>Review application records and export reports.</p>
+        <button class="btn secondary small" data-open="reports">Open Module →</button>
+      </article>
+      <article class="feature" data-module="security" data-search="security privacy sha256 browser">
+        <div class="feature-icon">🔐</div><h3>Security Information</h3>
+        <p>Learn about browser storage and evidence hash verification.</p>
+        <button class="btn secondary small" data-open="security">Open Module →</button>
+      </article>
+    </div>
+    <p id="noFeatures" class="empty hidden">No matching features found.</p>
+  </div>
+</section>
 
-        <div class="buttons">
-            <a class="btn primary"
-               href="https://github.com/saaqibmohiddin/CineShield-AI"
-               target="_blank">
-                Explore on GitHub ↗
-            </a>
+<section class="about" id="about">
+  <div class="container">
+    <h2 class="section-title">About CineShield AI</h2>
+    <p>
+      CineShield AI is a movie investigation and evidence management
+      project. This GitHub Pages edition provides an interactive
+      browser demonstration. The original Python Streamlit project
+      is maintained separately in the GitHub repository.
+    </p>
+    <div class="tech">
+      <span>Python</span><span>Streamlit</span><span>SQLite</span>
+      <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+      <span>GitHub Pages</span>
+    </div>
+    <div class="hero-actions" style="margin-top:30px">
+      <a class="btn primary" href="https://github.com/saaqibmohiddin/CineShield-AI" target="_blank" rel="noopener">View Repository ↗</a>
+      <a class="btn secondary" href="https://github.com/saaqibmohiddin/CineShield-AI/blob/main/app.py" target="_blank" rel="noopener">View Python Source ↗</a>
+    </div>
+  </div>
+</section>
 
-            <a class="btn secondary"
-               href="https://github.com/saaqibmohiddin/CineShield-AI/blob/main/app.py"
-               target="_blank">
-                View Source Code
-            </a>
-        </div>
-    </header>
+<footer>
+  <div class="container">
+    <p>© 2026 CineShield AI | Interactive Project Demonstration</p>
+    <p style="margin-top:7px"><a href="https://github.com/saaqibmohiddin">GitHub Profile ↗</a></p>
+  </div>
+</footer>
 
-    <section>
-        <h2 class="section-title">Project Features</h2>
+<!-- Interactive module modal -->
+<div class="modal" id="appModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal-box">
+    <div class="modal-head">
+      <h2 id="modalTitle">Application Module</h2>
+      <button class="close" id="closeModal" aria-label="Close">×</button>
+    </div>
+    <div id="moduleContent"></div>
+  </div>
+</div>
+<div class="toast" id="toast" role="status"></div>
 
-        <p class="section-description">
-            Explore the main management modules available in CineShield AI.
-        </p>
+<script>
+"use strict";
 
-        <div class="features">
+/* Local browser demo storage */
+const STORAGE_KEY = "cineshield_ai_demo_v1";
 
-            <div class="card">
-                <div class="icon">🎬</div>
-                <h3>Movie Management</h3>
-                <p>
-                    Organize movie information and maintain
-                    movie reference records.
-                </p>
-            </div>
+const emptyData = () => ({
+  movies: [],
+  investigations: [],
+  evidence: [],
+  cases: []
+});
 
-            <div class="card">
-                <div class="icon">🔍</div>
-                <h3>Investigation Records</h3>
-                <p>
-                    Maintain investigation information,
-                    uploaded filenames and scan results.
-                </p>
-            </div>
+function loadData() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(STORAGE_KEY));
+    if (!saved || typeof saved !== "object") return emptyData();
+    return {
+      movies: Array.isArray(saved.movies) ? saved.movies : [],
+      investigations: Array.isArray(saved.investigations) ? saved.investigations : [],
+      evidence: Array.isArray(saved.evidence) ? saved.evidence : [],
+      cases: Array.isArray(saved.cases) ? saved.cases : []
+    };
+  } catch {
+    return emptyData();
+  }
+}
 
-            <div class="card">
-                <div class="icon">🛡️</div>
-                <h3>Evidence Management</h3>
-                <p>
-                    Store evidence records, file hashes
-                    and investigation notes.
-                </p>
-            </div>
+let data = loadData();
+const $ = (id) => document.getElementById(id);
 
-            <div class="card">
-                <div class="icon">📁</div>
-                <h3>Case Management</h3>
-                <p>
-                    Organize cases with priority,
-                    investigator and status information.
-                </p>
-            </div>
+function saveData() {
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+    updateDashboard();
+  } catch (error) {
+    toast("Browser storage is full or unavailable.");
+  }
+}
 
-            <div class="card">
-                <div class="icon">📊</div>
-                <h3>Reports & Records</h3>
-                <p>
-                    Maintain organized records and
-                    investigation-related information.
-                </p>
-            </div>
+function escapeHTML(value) {
+  return String(value ?? "").replace(/[&<>"']/g, char => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;",
+    '"': "&quot;", "'": "&#039;"
+  })[char]);
+}
 
-            <div class="card">
-                <div class="icon">🔐</div>
-                <h3>Security</h3>
-                <p>
-                    Built with Python security-related
-                    functionality and data management.
-                </p>
-            </div>
+function toast(message) {
+  const el = $("toast");
+  el.textContent = message;
+  el.classList.add("show");
+  clearTimeout(toast.timer);
+  toast.timer = setTimeout(() => el.classList.remove("show"), 2600);
+}
 
-        </div>
-    </section>
+function updateDashboard() {
+  $("movieCount").textContent = data.movies.length;
+  $("investigationCount").textContent = data.investigations.length;
+  $("evidenceCount").textContent = data.evidence.length;
+  $("caseCount").textContent = data.cases.length;
+}
 
-    <section class="about">
-        <h2 class="section-title">About CineShield AI</h2>
+function makeId() {
+  return Date.now().toString(36) + Math.random().toString(36).slice(2,7);
+}
 
-        <p>
-            CineShield AI is a Python-based project developed
-            using Streamlit and SQLite. It brings movie
-            management, investigation records, evidence
-            organization and case management together
-            in a single application.
-        </p>
+function openModal(title, html) {
+  $("modalTitle").textContent = title;
+  $("moduleContent").innerHTML = html;
+  $("appModal").classList.add("open");
+  document.body.style.overflow = "hidden";
+}
 
-        <div class="tech">
-            <span>Python</span>
-            <span>Streamlit</span>
-            <span>SQLite</span>
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>GitHub</span>
-        </div>
-    </section>
+function closeModal() {
+  $("appModal").classList.remove("open");
+  document.body.style.overflow = "";
+}
 
-    <footer>
-        <p>
-            © 2026 CineShield AI | Developed as a project.
-        </p>
-        <p>
-            <a href="https://github.com/saaqibmohiddin"
-               target="_blank">
-                GitHub Profile
-            </a>
-        </p>
-    </footer>
+function table(headers, rows, emptyText) {
+  if (!rows.length) return `<div class="empty">${emptyText}</div>`;
+  return `<div class="table-wrap"><table>
+    <thead><tr>${headers.map(h => `<th>${h}</th>`).join("")}</tr></thead>
+    <tbody>${rows.join("")}</tbody>
+  </table></div>`;
+}
+
+function moduleMovies() {
+  const rows = data.movies.map(m => `<tr>
+    <td>${escapeHTML(m.title)}</td><td>${escapeHTML(m.genre)}</td>
+    <td>${escapeHTML(m.year || "—")}</td>
+    <td><button class="btn danger small" data-delete="movies" data-id="${m.id}">Delete</button></td>
+  </tr>`);
+  openModal("🎬 Movie Management", `
+    <form id="movieForm">
+      <div class="form-grid">
+        <div class="field"><label>Movie Title *</label><input name="title" required maxlength="100" placeholder="Enter movie title"></div>
+        <div class="field"><label>Genre</label><input name="genre" maxlength="60" placeholder="Action, Drama..."></div>
+        <div class="field"><label>Release Year</label><input name="year" type="number" min="1888" max="2100" placeholder="2026"></div>
+      </div>
+      <button class="btn primary" type="submit">+ Add Movie</button>
+    </form>
+    ${table(["Movie","Genre","Year","Action"], rows, "No movies added yet.")}
+  `);
+}
+
+function moduleInvestigations() {
+  const rows = data.investigations.map(i => `<tr>
+    <td>${escapeHTML(i.title)}</td><td>${escapeHTML(i.movie || "—")}</td>
+    <td>${escapeHTML(i.date)}</td>
+    <td><button class="btn danger small" data-delete="investigations" data-id="${i.id}">Delete</button></td>
+  </tr>`);
+  openModal("🔍 Investigation Records", `
+    <form id="investigationForm">
+      <div class="form-grid">
+        <div class="field"><label>Investigation Title *</label><input name="title" required maxlength="120" placeholder="Investigation title"></div>
+        <div class="field"><label>Related Movie</label><input name="movie" maxlength="100" placeholder="Movie name"></div>
+        <div class="field full"><label>Investigation Notes</label><textarea name="notes" maxlength="1000" placeholder="Enter notes..."></textarea></div>
+      </div>
+      <button class="btn primary" type="submit">+ Save Investigation</button>
+    </form>
+    ${table(["Title","Movie","Date","Action"], rows, "No investigation records yet.")}
+  `);
+}
+
+function moduleEvidence() {
+  const rows = data.evidence.map(e => `<tr>
+    <td>${escapeHTML(e.name)}</td><td>${escapeHTML(e.size)}</td>
+    <td><code>${escapeHTML(e.hash.slice(0,18))}...</code></td>
+    <td><button class="btn danger small" data-delete="evidence" data-id="${e.id}">Delete</button></td>
+  </tr>`);
+  openModal("🛡️ Evidence Management", `
+    <div class="notice">Select a file to calculate its SHA-256 fingerprint in your browser. This demo stores the filename and hash, not the actual file contents.</div>
+    <form id="evidenceForm">
+      <div class="field"><label>Evidence File *</label><input type="file" name="file" required></div>
+      <button class="btn primary" type="submit">Calculate Hash & Save</button>
+    </form>
+    <div id="hashResult"></div>
+    ${table(["File","Size","SHA-256 Hash","Action"], rows, "No evidence files added yet.")}
+  `);
+}
+
+function moduleCases() {
+  const rows = data.cases.map(c => `<tr>
+    <td>${escapeHTML(c.title)}</td><td>${escapeHTML(c.priority)}</td>
+    <td><span class="status ${c.status === "Closed" ? "closed" : "active"}">${escapeHTML(c.status)}</span></td>
+    <td>
+      <button class="btn secondary small" data-toggle-case="${c.id}">Change Status</button>
+      <button class="btn danger small" data-delete="cases" data-id="${c.id}">Delete</button>
+    </td>
+  </tr>`);
+  openModal("📁 Case Management", `
+    <form id="caseForm">
+      <div class="form-grid">
+        <div class="field"><label>Case Title *</label><input name="title" required maxlength="120" placeholder="Enter case title"></div>
+        <div class="field"><label>Priority</label><select name="priority"><option>Low</option><option selected>Medium</option><option>High</option><option>Critical</option></select></div>
+      </div>
+      <button class="btn primary" type="submit">+ Create Case</button>
+    </form>
+    ${table(["Case","Priority","Status","Actions"], rows, "No cases created yet.")}
+  `);
+}
+
+function moduleReports() {
+  const summary = [
+    ["Movies", data.movies.length],
+    ["Investigations", data.investigations.length],
+    ["Evidence files", data.evidence.length],
+    ["Cases", data.cases.length],
+    ["Open cases", data.cases.filter(c => c.status === "Open").length],
+    ["Closed cases", data.cases.filter(c => c.status === "Closed").length]
+  ];
+  openModal("📊 Reports & Records", `
+    <p style="color:var(--muted)">Current browser demonstration statistics.</p>
+    ${table(["Category","Total"], summary.map(x => `<tr><td>${x[0]}</td><td>${x[1]}</td></tr>`), "")}
+    <div class="module-actions">
+      <button class="btn primary" id="exportJSON">Download JSON Report</button>
+      <button class="btn secondary" id="exportCSV">Download CSV Report</button>
+    </div>
+    <div class="notice">Exports contain the records saved in this browser only.</div>
+  `);
+}
+
+function moduleSecurity() {
+  openModal("🔐 Security Information", `
+    <h3>Browser Demo Security</h3>
+    <p style="color:var(--muted);margin:10px 0">This GitHub Pages demonstration uses browser localStorage. It is not a secure server-side database and should not be used to store confidential investigation information.</p>
+    <div class="notice">SHA-256 hashes can help identify whether a file has changed. A hash alone does not prove that evidence is authentic or establish a chain of custody.</div>
+    <h3 style="margin-top:20px">Available demo protections</h3>
+    <ul style="padding-left:22px;color:var(--muted);margin:10px 0">
+      <li>SHA-256 file fingerprint calculation</li>
+      <li>Basic input validation</li>
+      <li>HTML escaping for displayed user data</li>
+      <li>Browser-local demo data</li>
+    </ul>
+    <button class="btn danger" id="clearAll">Clear All Demo Data</button>
+  `);
+}
+
+const modules = {
+  movies: moduleMovies,
+  investigations: moduleInvestigations,
+  evidence: moduleEvidence,
+  cases: moduleCases,
+  reports: moduleReports,
+  security: moduleSecurity
+};
+
+function openModule(name) {
+  if (modules[name]) modules[name]();
+}
+
+function downloadFile(filename, content, type) {
+  const blob = new Blob([content], {type});
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = filename;
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(url);
+}
+
+function exportCSV() {
+  const records = [];
+  for (const [category, items] of Object.entries(data)) {
+    items.forEach(item => records.push({category, ...item}));
+  }
+  const columns = ["category","title","name","genre","year","movie","date","priority","status","hash","size","notes"];
+  const quote = value => `"${String(value ?? "").replace(/"/g,'""')}"`;
+  const csv = [columns.join(","), ...records.map(r => columns.map(c => quote(r[c])).join(","))].join("\n");
+  downloadFile("cineshield-report.csv", csv, "text/csv;charset=utf-8");
+}
+
+function exportJSON() {
+  downloadFile("cineshield-report.json", JSON.stringify({
+    application: "CineShield AI",
+    exportedAt: new Date().toISOString(),
+    records: data
+  }, null, 2), "application/json");
+}
+
+/* Main click handling */
+document.addEventListener("click", event => {
+  const opener = event.target.closest("[data-open]");
+  if (opener) {
+    openModule(opener.dataset.open);
+    $("navLinks").classList.remove("show");
+    return;
+  }
+
+  const del = event.target.closest("[data-delete]");
+  if (del) {
+    const category = del.dataset.delete;
+    const id = del.dataset.id;
+    if (!confirm("Are you sure you want to delete this record?")) return;
+    data[category] = data[category].filter(item => item.id !== id);
+    saveData();
+    openModule(category);
+    toast("Record deleted.");
+    return;
+  }
+
+  const toggle = event.target.closest("[data-toggle-case]");
+  if (toggle) {
+    const item = data.cases.find(c => c.id === toggle.dataset.toggleCase);
+    if (item) item.status = item.status === "Open" ? "Closed" : "Open";
+    saveData();
+    moduleCases();
+    toast("Case status updated.");
+    return;
+  }
+
+  if (event.target.id === "closeModal" || event.target.id === "appModal") closeModal();
+  if (event.target.id === "menuBtn") $("navLinks").classList.toggle("show");
+
+  if (event.target.id === "exportJSON") exportJSON();
+  if (event.target.id === "exportCSV") exportCSV();
+
+  if (event.target.id === "clearAll") {
+    if (!confirm("Delete all CineShield demo records from this browser?")) return;
+    data = emptyData();
+    saveData();
+    closeModal();
+    toast("All demo data cleared.");
+  }
+});
+
+/* Form submissions */
+document.addEventListener("submit", async event => {
+  const form = event.target;
+  event.preventDefault();
+  const values = new FormData(form);
+
+  if (form.id === "movieForm") {
+    data.movies.push({
+      id: makeId(), title: values.get("title").trim(),
+      genre: values.get("genre").trim(),
+      year: values.get("year")
+    });
+    saveData(); moduleMovies(); toast("Movie added successfully.");
+  }
+
+  if (form.id === "investigationForm") {
+    data.investigations.push({
+      id: makeId(), title: values.get("title").trim(),
+      movie: values.get("movie").trim(),
+      notes: values.get("notes").trim(),
+      date: new Date().toLocaleDateString()
+    });
+    saveData(); moduleInvestigations(); toast("Investigation saved.");
+  }
+
+  if (form.id === "caseForm") {
+    data.cases.push({
+      id: makeId(), title: values.get("title").trim(),
+      priority: values.get("priority"), status: "Open"
+    });
+    saveData(); moduleCases(); toast("Case created successfully.");
+  }
+
+  if (form.id === "evidenceForm") {
+    const file = values.get("file");
+    if (!file || !file.size) {
+      toast("Please select a valid file.");
+      return;
+    }
+    if (!window.crypto || !crypto.subtle) {
+      toast("SHA-256 requires HTTPS or localhost.");
+      return;
+    }
+    const submit = form.querySelector('button[type="submit"]');
+    submit.disabled = true;
+    submit.textContent = "Calculating...";
+    try {
+      const bytes = await file.arrayBuffer();
+      const digest = await crypto.subtle.digest("SHA-256", bytes);
+      const hash = Array.from(new Uint8Array(digest))
+        .map(b => b.toString(16).padStart(2,"0")).join("");
+      data.evidence.push({
+        id: makeId(), name: file.name,
+        size: (file.size / 1024).toFixed(2) + " KB",
+        hash, date: new Date().toISOString()
+      });
+      saveData();
+      moduleEvidence();
+      $("hashResult").innerHTML = `<div class="notice"><strong>SHA-256:</strong><br><code style="overflow-wrap:anywhere">${escapeHTML(hash)}</code></div>`;
+      toast("Evidence fingerprint saved.");
+    } catch (error) {
+      submit.disabled = false;
+      submit.textContent = "Calculate Hash & Save";
+      toast("Could not process this file.");
+    }
+  }
+});
+
+/* Feature search */
+$("featureSearch").addEventListener("input", event => {
+  const query = event.target.value.toLowerCase().trim();
+  let visible = 0;
+  document.querySelectorAll(".feature").forEach(card => {
+    const match = (card.innerText + " " + card.dataset.search).toLowerCase().includes(query);
+    card.classList.toggle("hidden", !match);
+    if (match) visible++;
+  });
+  $("noFeatures").classList.toggle("hidden", visible !== 0);
+});
+
+$("closeModal").addEventListener("click", closeModal);
+document.addEventListener("keydown", event => {
+  if (event.key === "Escape") closeModal();
+});
+document.querySelectorAll(".nav-links a").forEach(link => {
+  link.addEventListener("click", () => $("navLinks").classList.remove("show"));
+});
+
+updateDashboard();
+</script>
 
 </body>
 </html>
-
