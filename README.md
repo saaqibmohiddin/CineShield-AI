@@ -220,40 +220,27 @@ VS Code| Development environment
 
 ---
 
-07 — SYSTEM ARCHITECTURE
+## 07 — SYSTEM ARCHITECTURE
 
-<div align="center">CINESHIELD AI | APPLICATION ARCHITECTURE
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=65&color=0:080B1C,100:8547F5&text=CINESHIELD%20AI%20%7C%20SYSTEM%20ARCHITECTURE&fontColor=FFFFFF&fontSize=18&fontAlignY=55" width="100%"/>APPLICATION WORKFLOW
 
-</div>flowchart TB
-    A["CINESHIELD AI"]
-    A --> B["STREAMLIT APPLICATION"]
-    A --> C["BROWSER DEMONSTRATION"]
-    B --> D["PYTHON LOGIC"]
-    D --> E["DATABASE LAYER"]
-    D --> F["SECURITY & HASHING"]
-    D --> G["REPORT GENERATION"]
-    E --> H[("SQLITE DATABASE")]
-    F --> I["SHA-256 FINGERPRINTS"]
-    G --> J["INVESTIGATION REPORTS"]
-    C --> K["HTML / CSS / JAVASCRIPT"]
+"USER" → "STREAMLIT UI" → "PYTHON LOGIC" → "DATABASE & SECURITY" → "REPORTS"
 
-Application Components
+</div>◈ CORE COMPONENTS
 
-COMPONENT| RESPONSIBILITY
-"app.py"| Main Streamlit application
-"config.py"| Application configuration and storage paths
-"database.py"| SQLite database operations
-"movie_manager.py"| Movie registration and file comparison
-"scan_manager.py"| File investigation orchestration
-"security.py"| SHA-256 and input validation helpers
-"report_generator.py"| Investigation report generation
-"index.html"| Interactive browser demonstration
-"requirements.txt"| Python dependencies
+COMPONENT| PURPOSE
+"app.py"| Main application
+"database.py"| SQLite storage
+"movie_manager.py"| Movie management
+"scan_manager.py"| File investigation
+"security.py"| SHA-256 fingerprinting
+"report_generator.py"| Report generation
+"index.html"| Browser interface
+"config.py"| Application settings
 
-Project Structure
+◈ PROJECT STRUCTURE
 
 CineShield-AI/
-│
 ├── app.py
 ├── index.html
 ├── config.py
@@ -262,19 +249,12 @@ CineShield-AI/
 ├── scan_manager.py
 ├── security.py
 ├── report_generator.py
-│
 ├── engines/
-│
-├── requirements.txt
-├── .gitignore
-│
 ├── data/
-├── evidence/
-├── reports/
-├── samples/
-└── watermarks/
+├── requirements.txt
+└── .gitignore
 
-Storage directories are created by the application configuration when initialized. The database file is generated at runtime.
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=45&color=0:080B1C,100:8547F5&text=INVESTIGATE%20SMARTER.%20ORGANIZE%20BETTER.&fontColor=FFFFFF&fontSize=13" width="100%"/></div>
 
 ---
 
