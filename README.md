@@ -314,27 +314,36 @@ Important forensic distinction:
 
 09 — INSTALLATION & SETUP
 
-<div align="center"><img src="https://img.shields.io/badge/ENVIRONMENT-PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/INTERFACE-STREAMLIT-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/></div>Prerequisites
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=100&color=0:080B18,50:392078,100:8957F5&text=INSTALLATION%20%26%20SETUP&fontSize=25&fontColor=FFFFFF&fontAlignY=50&desc=DEPLOY%20THE%20ENVIRONMENT.%20LAUNCH%20THE%20INVESTIGATION.&descSize=9&descAlignY=78" width="100%" /><br/><img src="https://img.shields.io/badge/ENVIRONMENT-PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/INTERFACE-STREAMLIT-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" /></div>---
 
-- Python 3.10 or later.
-- Git.
-- Visual Studio Code (recommended).
-- Windows, macOS or Linux.
+◈ SYSTEM REQUIREMENTS
 
-Step 01 — Clone the Repository
+REQUIREMENT| SPECIFICATION
+Runtime| Python 3.10 or later
+Version Control| Git
+Code Editor| Visual Studio Code (Recommended)
+Operating System| Windows / macOS / Linux
+
+---
+
+◈ INSTALLATION PROCEDURE
+
+01 — CLONE THE REPOSITORY
+
+Download the CineShield AI source code.
 
 git clone https://github.com/saaqibmohiddin/CineShield-AI.git
 
-Step 02 — Open the Project
+02 — OPEN THE PROJECT DIRECTORY
 
 cd CineShield-AI
 
-Step 03 — Create a Virtual Environment
+03 — CREATE A VIRTUAL ENVIRONMENT
 
 python -m venv venv
 
-Step 04 — Activate the Environment
+04 — ACTIVATE THE ENVIRONMENT
 
 Windows:
 
@@ -344,21 +353,27 @@ macOS / Linux:
 
 source venv/bin/activate
 
-Step 05 — Install Dependencies
+05 — INSTALL DEPENDENCIES
+
+Install the required Python packages.
 
 pip install -r requirements.txt
 
-Step 06 — Launch CineShield AI
+06 — LAUNCH CINESHIELD AI
+
+Start the Streamlit application.
 
 streamlit run app.py
 
-Step 07 — Access the Application
+07 — ACCESS THE APPLICATION
 
-Open the local URL displayed in your terminal, normally:
+Open the local URL displayed in your terminal.
 
 http://localhost:8501
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=55&color=0:080B16,50:252044,100:8B5CF6&text=INVESTIGATE%20SMARTER.%20ORGANIZE%20BETTER.&fontSize=16&fontColor=FFFFFF" width="100%"/></div>
+---
+
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=65&color=0:080B18,50:392078,100:8957F5&text=INVESTIGATE%20SMARTER.%20ORGANIZE%20BETTER.&fontSize=15&fontColor=FFFFFF&fontAlignY=50" width="100%" /></div>
 
 ## 10 — PROJECT OBJECTIVES
 
