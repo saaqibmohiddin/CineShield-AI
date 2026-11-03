@@ -1,31 +1,42 @@
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:080B16,30:11182B,65:252044,100:8B5CF6&text=CINESHIELD%20AI&fontSize=68&fontColor=FFFFFF&fontAlignY=38&desc=INTELLIGENT%20MOVIE%20INVESTIGATION%20%7C%20DIGITAL%20FORENSICS&descSize=13&descAlignY=61" width="100%" />◈ C I N E S H I E L D   A I ◈
 
-THE NEXT GENERATION OF DIGITAL MEDIA INVESTIGATION
+<div align="center">
 
-PROTECT THE FRAME. TRACE THE SOURCE. SECURE THE EVIDENCE.
+## ◈ PROJECT PURPOSE
 
-An intelligent movie investigation and digital evidence management platform designed to organize movie intelligence, examine authorized media files, generate cryptographic fingerprints and manage structured investigation records.
-
-<br/><a href="https://github.com/saaqibmohiddin/CineShield-AI">
-<img src="https://img.shields.io/badge/EXPLORE%20PROJECT-8B5CF6?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-<a href="https://github.com/saaqibmohiddin">
-<img src="https://img.shields.io/badge/VISIT%20DEVELOPER%20PROFILE-252044?style=for-the-badge&logo=github&logoColor=C4B5FD"/>
-</a>
-<a href="https://github.com/saaqibmohiddin/CineShield-AI/blob/main/index.html">
-<img src="https://img.shields.io/badge/EXPLORE%20HTML%20DEMO-11182B?style=for-the-badge&logo=googlechrome&logoColor=white"/>
-</a><br/><br/>
-
-<img src="https://img.shields.io/badge/EDITION-DEVELOPMENT-8B5CF6?style=flat-square"/>
-<img src="https://img.shields.io/badge/INTERFACE-DARK%20CINEMATIC-252044?style=flat-square"/>
-<img src="https://img.shields.io/badge/INTEGRITY-SHA--256-6D28D9?style=flat-square"/>
-<img src="https://img.shields.io/badge/DATABASE-SQLITE-003B57?style=flat-square"/></div>---
-
-<div align="center">◈ THE CINESHIELD EXPERIENCE
-
-One platform. Multiple investigation modules. One structured digital evidence workflow.
+**Making Digital Media Investigation More Organized, Reliable and Traceable.**
 
 </div>
+
+---
+
+### ◈ DESIGN PRINCIPLES
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/01-EVIDENCE_INTEGRITY-8247E5?style=for-the-badge"/>
+
+Accurate and consistent evidence records.
+
+<img src="https://img.shields.io/badge/02-TRACEABILITY-8247E5?style=for-the-badge"/>
+
+Clear and structured investigation history.
+
+<img src="https://img.shields.io/badge/03-RELIABILITY-8247E5?style=for-the-badge"/>
+
+Secure and organized data handling.
+
+</div>
+
+---
+
+<div align="center">
+
+### BUILT FOR DIGITAL FORENSIC WORKFLOWS
+
+**PRECISION  |  TRANSPARENCY  |  INTEGRITY**
+
+</div>
+
 
 ## 01 — PROJECT OVERVIEW
 
