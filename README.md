@@ -38,57 +38,7 @@ The project combines:
 - Investigation records and evidence management.
 - Case organization and report generation.
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=65&color=0:11182B,50:252044,100:8B5CF6&text=INTELLIGENCE%20%7C%20INTEGRITY%20%7C%20INVESTIGATION&fontSize=17&fontColor=FFFFFF" width="100%"/></div>02 — THE CINESHIELD DESIGN SYSTEM
-
-<div align="center">OBSIDIAN × MIDNIGHT × ELECTRIC VIOLET
-
-A cinematic visual identity inspired by digital forensics, cybersecurity interfaces, intelligence dashboards and modern investigation systems.
-
-</div>Color Architecture
-
-<table>
-<tr>
-<th>COLOR</th>
-<th>HEX CODE</th>
-<th>DESIGN PURPOSE</th>
-</tr>
-<tr>
-<td><img src="https://singlecolorimage.com/get/080B16/80x25" width="80"/></td>
-<td><code>#080B16</code></td>
-<td>Primary background</td>
-</tr>
-<tr>
-<td><img src="https://singlecolorimage.com/get/11182B/80x25" width="80"/></td>
-<td><code>#11182B</code></td>
-<td>Secondary surfaces</td>
-</tr>
-<tr>
-<td><img src="https://singlecolorimage.com/get/252044/80x25" width="80"/></td>
-<td><code>#252044</code></td>
-<td>Section backgrounds</td>
-</tr>
-<tr>
-<td><img src="https://singlecolorimage.com/get/8B5CF6/80x25" width="80"/></td>
-<td><code>#8B5CF6</code></td>
-<td>Primary accent</td>
-</tr>
-<tr>
-<td><img src="https://singlecolorimage.com/get/C4B5FD/80x25" width="80"/></td>
-<td><code>#C4B5FD</code></td>
-<td>Highlights and typography</td>
-</tr>
-</table>Visual Principles
-
-DESIGN ELEMENT| VISUAL DIRECTION
-Background| Cinematic Obsidian
-Surfaces| Midnight layered panels
-Primary Accent| Electric Violet
-Highlights| Soft Lavender
-Typography| Modern, high-contrast
-Layout| Structured and minimal
-Identity| Digital Forensics Aesthetic
-
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=45&color=0:080B16,50:252044,100:8B5CF6&text=ONE%20DESIGN%20LANGUAGE%20ACROSS%20EVERY%20SECTION&fontSize=14&fontColor=FFFFFF" width="100%"/></div>
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=65&color=0:11182B,50:252044,100:8B5CF6&text=INTELLIGENCE%20%7C%20INTEGRITY%20%7C%20INVESTIGATION&fontSize=17&fontColor=FFFFFF" width="100%"/></div>
 
 
 ## 03 — THE CINESHIELD ECOSYSTEM
