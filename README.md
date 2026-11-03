@@ -73,7 +73,7 @@ SHA-256 file comparison and digital evidence management.
 </div>
 
 
-## 03 — THE CINESHIELD ECOSYSTEM
+## 02 — THE CINESHIELD ECOSYSTEM
 
 <table>
 <tr>
@@ -118,7 +118,7 @@ Structured investigation summaries and reporting.
 </tr>
 </table>
 
-## 04 — CORE FEATURES & MODULES
+## 03 — CORE FEATURES & MODULES
 
 <p align="center">
   <img src="https://img.shields.io/badge/CINESHIELD_AI-CORE_MODULES-8B5CF6?style=for-the-badge&labelColor=080B1A"/>
@@ -146,7 +146,7 @@ Structured investigation summaries and reporting.
 
 ---
 
-## 05 — HOW CINESHIELD WORKS
+## 04 — HOW CINESHIELD WORKS
 
 <p align="center">
   <img src="https://img.shields.io/badge/CINESHIELD_AI-DIGITAL_INVESTIGATION-7139D8?style=for-the-badge&labelColor=080B1A"/>
@@ -163,7 +163,7 @@ Structured investigation summaries and reporting.
   <img src="https://img.shields.io/badge/SECURE-TRACEABLE-8B5CF6?style=for-the-badge&labelColor=080B1A"/>
 </p>
 
-<h2 align="center">06 — TECHNOLOGY STACK</h2>
+<h2 align="center">05 — TECHNOLOGY STACK</h2>
 
 <p align="center">
   <img src="https://img.shields.io/badge/CINESHIELD--AI-TECH_STACK-7139D8?style=for-the-badge&labelColor=080B1A"/>
