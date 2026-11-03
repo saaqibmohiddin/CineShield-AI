@@ -312,61 +312,62 @@ Important forensic distinction:
 
 ---
 
-09 — INSTALLATION & SETUP
+## 09 — INSTALLATION & SETUP
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=110&color=0:070A18,45:24134E,100:8957F5&text=CINESHIELD%20AI&fontSize=30&fontColor=FFFFFF&fontAlignY=40&desc=SYSTEM%20DEPLOYMENT%20%7C%20INSTALLATION%20PROTOCOL&descSize=10&descAlignY=72" width="100%" /><br/><img src="https://img.shields.io/badge/01-ENVIRONMENT-090B19?style=for-the-badge&labelColor=555555" />
-<img src="https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white" /><img src="https://img.shields.io/badge/02-INTERFACE-090B19?style=for-the-badge&labelColor=555555" />
-<img src="https://img.shields.io/badge/STREAMLIT-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" /></div>---
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=75&color=0:080B18,100:8050E8&text=SYSTEM%20INSTALLATION&fontSize=22&fontColor=FFFFFF&fontAlignY=50" width="100%" /><br/>"ENVIRONMENT"  PYTHON
 
-◈  SYSTEM REQUIREMENTS
+"INTERFACE"  STREAMLIT
 
-COMPONENT| REQUIREMENT
-Runtime Environment| Python 3.10+
-Version Control| Git
-Development Environment| Visual Studio Code
-Supported Platforms| Windows / macOS / Linux
+</div>◈ SYSTEM REQUIREMENTS
+
+- Python 3.10 or later
+- Git
+- Visual Studio Code (Recommended)
+- Windows, macOS or Linux
 
 ---
 
-◈  DEPLOYMENT SEQUENCE
+◈ INSTALLATION PROCEDURE
 
-<div align="center"><img src="https://img.shields.io/badge/STEP%2001-REPOSITORY%20ACQUISITION-8957F5?style=for-the-badge" /></div>Clone the official project repository.
+01 — CLONE REPOSITORY
 
 git clone https://github.com/saaqibmohiddin/CineShield-AI.git
 
-<div align="center"><img src="https://img.shields.io/badge/STEP%2002-PROJECT%20INITIALIZATION-8957F5?style=for-the-badge" /></div>Navigate into the project directory.
+02 — OPEN PROJECT
 
 cd CineShield-AI
 
-<div align="center"><img src="https://img.shields.io/badge/STEP%2003-ENVIRONMENT%20CONFIGURATION-8957F5?style=for-the-badge" /></div>Create an isolated Python environment.
+03 — CREATE VIRTUAL ENVIRONMENT
 
 python -m venv venv
 
-<div align="center"><img src="https://img.shields.io/badge/STEP%2004-ENVIRONMENT%20ACTIVATION-8957F5?style=for-the-badge" /></div>Windows
+04 — ACTIVATE ENVIRONMENT
+
+Windows:
 
 venv\Scripts\activate
 
-macOS / Linux
+macOS / Linux:
 
 source venv/bin/activate
 
-<div align="center"><img src="https://img.shields.io/badge/STEP%2005-DEPENDENCY%20INSTALLATION-8957F5?style=for-the-badge" /></div>Install the required project dependencies.
+05 — INSTALL DEPENDENCIES
 
 pip install -r requirements.txt
 
-<div align="center"><img src="https://img.shields.io/badge/STEP%2006-APPLICATION%20DEPLOYMENT-8957F5?style=for-the-badge" /></div>Launch the CineShield AI interface.
+06 — LAUNCH APPLICATION
 
 streamlit run app.py
 
-<div align="center"><img src="https://img.shields.io/badge/STEP%2007-APPLICATION%20ACCESS-8957F5?style=for-the-badge" /></div>Open the application using the local address.
+07 — ACCESS APPLICATION
 
-http://localhost:8501
+Open the local application URL:
+
+"http://localhost:8501"
 
 ---
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=85&color=0:080B18,50:392078,100:8957F5&text=SYSTEM%20READY&fontSize=22&fontColor=FFFFFF&fontAlignY=40&desc=INVESTIGATE%20SMARTER.%20ORGANIZE%20BETTER.&descSize=10&descAlignY=72" width="100%" />CINESHIELD AI • DIGITAL FORENSICS
-
-</div>
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=55&color=0:080B18,100:8050E8&text=INVESTIGATE%20SMARTER.%20ORGANIZE%20BETTER.&fontSize=13&fontColor=FFFFFF&fontAlignY=50" width="100%" /></div>
 
 ## 10 — PROJECT OBJECTIVES
 
