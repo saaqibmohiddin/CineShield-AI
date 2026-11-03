@@ -280,16 +280,21 @@ Storage directories are created by the application configuration when initialize
 
 ## 08 — DATABASE & EVIDENCE INTEGRITY
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=85&color=0:080B18,50:30205F,100:8957F5&text=DATABASE%20%26%20EVIDENCE%20INTEGRITY&fontSize=20&fontColor=FFFFFF&fontAlignY=50" width="100%" /><br/>"DATABASE" (https://img.shields.io/badge/DATABASE-SQLITE-087EA4?style=for-the-badge&logo=sqlite&logoColor=white)
-"CRYPTOGRAPHY" (https://img.shields.io/badge/CRYPTOGRAPHY-SHA--256-8957F5?style=for-the-badge)
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=8&color=8957F5" width="100%" />C I N E S H I E L D   A I
 
-</div>◈ STRUCTURED APPROACH TO DIGITAL EVIDENCE
+DIGITAL EVIDENCE MANAGEMENT SYSTEM
+
+"DATABASE ARCHITECTURE"  •  "FILE INTEGRITY"
+
+</div>---
+
+◇ 01 / DATABASE ARCHITECTURE
+
+SQLITE DATABASE
 
 CineShield AI uses SQLite to maintain structured application records.
 
-◈ DATABASE ENTITIES
-
-DATABASE TABLE| DATA STORED
+DATABASE ENTITY| INFORMATION MAINTAINED
 "movies"| Movie details and reference hashes
 "investigations"| Uploaded files, fingerprints and comparison results
 "records"| Module-specific investigation records
@@ -298,18 +303,22 @@ DATABASE TABLE| DATA STORED
 
 ---
 
-◈ SHA-256 FINGERPRINTING
+◇ 02 / CRYPTOGRAPHIC FINGERPRINTING
+
+<text>SHA-256 — SECURE HASH ALGORITHM</text>
 
 SHA-256 is used to calculate a cryptographic fingerprint for a file.
 
-PYTHON IMPLEMENTATION
+PYTHON SOURCE
 
 import hashlib
 
 def generate_fingerprint(file_data):
     return hashlib.sha256(file_data).hexdigest()
 
-◈ FORENSIC INTEGRITY VERIFICATION
+---
+
+◇ 03 / FORENSIC INTEGRITY VERIFICATION
 
 01 — IDENTICAL HASHES
 
@@ -329,7 +338,7 @@ A hash comparison alone cannot establish copyright infringement or prove piracy.
 
 ---
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=65&color=0:080B18,50:30205F,100:8957F5&text=PROTECT%20THE%20EVIDENCE.%20VERIFY%20THE%20INTEGRITY.&fontSize=13&fontColor=FFFFFF&fontAlignY=50" width="100%" />CINESHIELD AI • DIGITAL FORENSICS
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=65&color=0:090B19,100:8050E8&text=PROTECT%20THE%20FRAME.%20VERIFY%20THE%20EVIDENCE.&fontSize=12&fontColor=FFFFFF&fontAlignY=50" width="100%" />CINESHIELD AI  |  DIGITAL FORENSICS
 
 </div>
 
