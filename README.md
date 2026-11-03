@@ -203,23 +203,23 @@ STAGE| PROCESS| PURPOSE
 06| Evidence Management| Organize related investigation records.
 07| Report Generation| Produce a structured investigation report.
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=55&color=0:11182B,50:252044,100:8B5CF6&text=ACCURACY%20%7C%20TRACEABILITY%20%7C%20EVIDENCE%20INTEGRITY&fontSize=15&fontColor=FFFFFF" width="100%"/></div>06 — TECHNOLOGY STACK
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=55&color=0:11182B,50:252044,100:8B5CF6&text=ACCURACY%20%7C%20TRACEABILITY%20%7C%20EVIDENCE%20INTEGRITY&fontSize=15&fontColor=FFFFFF" width="100%"/></div>
 
-<div align="center">POWERED BY MODERN DEVELOPMENT TECHNOLOGIES
+## 06 — TECHNOLOGY STACK
 
-<img src="https://skillicons.dev/icons?i=python,html,css,js,sqlite,git,github,vscode&theme=dark" /></div>Technology Breakdown
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=65&color=0:080B1C,100:8547FF&text=POWERED%20BY%20TECHNOLOGY&fontColor=FFFFFF&fontSize=21" width="100%"/><br/>"Python" (https://img.shields.io/badge/Python-17132B?style=for-the-badge&logo=python&logoColor=3776AB)
+"Streamlit" (https://img.shields.io/badge/Streamlit-17132B?style=for-the-badge&logo=streamlit&logoColor=FF4B4B)
+"SQLite" (https://img.shields.io/badge/SQLite-17132B?style=for-the-badge&logo=sqlite&logoColor=74AADB)
 
-TECHNOLOGY| PURPOSE
-Python| Core application logic
-Streamlit| Interactive application interface
-SQLite| Local relational database
-HTML5| Browser interface structure
-CSS3| Visual styling and layout
-JavaScript| Browser interactions
-SHA-256| Cryptographic file fingerprinting
-Git| Version control
-GitHub| Source code hosting
-VS Code| Development environment
+"HTML5" (https://img.shields.io/badge/HTML5-17132B?style=for-the-badge&logo=html5&logoColor=E34F26)
+"CSS3" (https://img.shields.io/badge/CSS3-17132B?style=for-the-badge&logo=css3&logoColor=1572B6)
+"JavaScript" (https://img.shields.io/badge/JavaScript-17132B?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+
+"Git" (https://img.shields.io/badge/Git-17132B?style=for-the-badge&logo=git&logoColor=F05032)
+"GitHub" (https://img.shields.io/badge/GitHub-17132B?style=for-the-badge&logo=github&logoColor=FFFFFF)
+"VS Code" (https://img.shields.io/badge/VS%20Code-17132B?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC)
+
+<br/><img src="https://capsule-render.vercel.app/api?type=rect&height=38&color=0:080B1C,100:8547FF&text=BUILD%20%E2%80%A2%20ANALYZE%20%E2%80%A2%20PROTECT&fontColor=FFFFFF&fontSize=13" width="100%"/></div>
 
 ---
 
