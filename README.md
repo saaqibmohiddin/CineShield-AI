@@ -375,10 +375,12 @@ To develop a modern digital investigation environment that makes movie-related e
 
 ---
 
-◈ 11 — SECURITY & RESPONSIBLE USAGE
+11 — SECURITY & RESPONSIBLE USAGE
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=100&color=0:080B18,50:35206B,100:8957F5&text=SECURITY%20%26%20RESPONSIBLE%20USAGE&fontColor=FFFFFF&fontSize=21&fontAlignY=50" width="100%"/><br/>"Security" (https://img.shields.io/badge/SECURITY-ESSENTIAL-8957F5?style=for-the-badge)
-"Responsible Usage" (https://img.shields.io/badge/RESPONSIBLE-DIGITAL%20FORENSICS-211B45?style=for-the-badge)
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=85&color=0:080B18,45:30205F,100:8957F5&text=PROTECT%20THE%20FRAME&fontColor=FFFFFF&fontSize=25&fontAlignY=50" width="100%"/><br/><img src="https://img.shields.io/badge/SECURITY-DIGITAL%20FORENSICS-8957F5?style=for-the-badge&labelColor=090B18"/>
+<img src="https://img.shields.io/badge/ACCESS-AUTHORIZED-30205F?style=for-the-badge&labelColor=090B18"/><br/><br/>
+
+◈ SECURITY & RESPONSIBLE USAGE
 
 </div>CineShield AI is intended for authorized investigation, educational development and legitimate digital evidence management.
 
@@ -386,38 +388,43 @@ To develop a modern digital investigation environment that makes movie-related e
 
 ◈ IMPORTANT CONSIDERATIONS
 
-<table>
+<table width="100%">
 <tr>
-<td width="12%" align="center"><b>01</b></td>
-<td><b>AUTHORIZED ACCESS</b><br/>Only examine media files that you are legally authorized to access.</td>
+<td align="center" width="65" bgcolor="#8957F5"><b>01</b></td>
+<td bgcolor="#101020"><b>AUTHORIZED ACCESS</b><br/>Only examine media files that you are legally authorized to access.</td>
 </tr>
+<tr><td colspan="2" height="8"></td></tr>
 <tr>
-<td align="center"><b>02</b></td>
-<td><b>EVIDENCE PRESERVATION</b><br/>Preserve original evidence files wherever possible.</td>
+<td align="center" bgcolor="#8957F5"><b>02</b></td>
+<td bgcolor="#101020"><b>EVIDENCE PRESERVATION</b><br/>Preserve original evidence files wherever possible.</td>
 </tr>
+<tr><td colspan="2" height="8"></td></tr>
 <tr>
-<td align="center"><b>03</b></td>
-<td><b>INVESTIGATION DOCUMENTATION</b><br/>Maintain appropriate investigation documentation.</td>
+<td align="center" bgcolor="#8957F5"><b>03</b></td>
+<td bgcolor="#101020"><b>INVESTIGATION DOCUMENTATION</b><br/>Maintain appropriate investigation documentation.</td>
 </tr>
+<tr><td colspan="2" height="8"></td></tr>
 <tr>
-<td align="center"><b>04</b></td>
-<td><b>HUMAN VERIFICATION</b><br/>Treat automated or hash-based results as technical observations requiring human review.</td>
+<td align="center" bgcolor="#8957F5"><b>04</b></td>
+<td bgcolor="#101020"><b>HUMAN VERIFICATION</b><br/>Treat automated or hash-based results as technical observations requiring human review.</td>
 </tr>
+<tr><td colspan="2" height="8"></td></tr>
 <tr>
-<td align="center"><b>05</b></td>
-<td><b>SECURITY LIMITATIONS</b><br/>The included hashing and validation helpers are not a substitute for production-grade authentication, encryption, access control or forensic chain-of-custody procedures.</td>
+<td align="center" bgcolor="#8957F5"><b>05</b></td>
+<td bgcolor="#101020"><b>SECURITY LIMITATIONS</b><br/>The included hashing and validation helpers are not a substitute for production-grade authentication, encryption, access control or forensic chain-of-custody procedures.</td>
 </tr>
+<tr><td colspan="2" height="8"></td></tr>
 <tr>
-<td align="center"><b>06</b></td>
-<td><b>SECURITY TESTING</b><br/>The project should undergo security testing before real-world deployment.</td>
+<td align="center" bgcolor="#8957F5"><b>06</b></td>
+<td bgcolor="#101020"><b>SECURITY TESTING</b><br/>The project should undergo security testing before real-world deployment.</td>
 </tr>
 </table>---
 
-<div align="center"><img src="https://img.shields.io/badge/PROTECT%20THE%20FRAME-8957F5?style=for-the-badge&labelColor=080B18"/>TRACE THE SOURCE. SECURE THE EVIDENCE.
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=75&color=0:8957F5,50:30205F,100:080B18&text=TRACE%20THE%20SOURCE.%20SECURE%20THE%20EVIDENCE.&fontColor=FFFFFF&fontSize=15&fontAlignY=50" width="100%"/><br/>◈ C I N E S H I E L D  A I ◈
 
-◈ C I N E S H I E L D  A I ◈
+INTELLIGENCE WITH INTEGRITY.
 
-INTELLIGENCE WITH INTEGRITY. INVESTIGATION WITH PURPOSE.
+INVESTIGATION WITH PURPOSE.
 
 </div>
 
