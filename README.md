@@ -430,25 +430,27 @@ Investigation Analytics| Advanced investigation insights
 
 ---
 
-14 — DEVELOPER
+## 14 — DEVELOPER
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=100&color=0:080B16,50:252044,100:8B5CF6&text=THE%20DEVELOPER%20BEHIND%20CINESHIELD&fontSize=19&fontColor=FFFFFF" width="100%"/><br/>MOHAMMED SAAQIB MOHIDDIN
-
-COMPUTER SCIENCE & ENGINEERING
-
-SPECIALIZATION IN ARTIFICIAL INTELLIGENCE
-
-"AI ENGINEERING" • "PYTHON DEVELOPMENT" • "DIGITAL FORENSICS"
-
-<br/><a href="https://github.com/saaqibmohiddin">
-<img src="https://img.shields.io/badge/VISIT%20MY%20GITHUB%20PROFILE-8B5CF6?style=for-the-badge&logo=github&logoColor=white"/>
-</a><br/><br/>
-
-<a href="https://github.com/saaqibmohiddin">
-<img src="https://github-readme-stats.vercel.app/api?username=saaqibmohiddin&show_icons=true&hide_border=true&bg_color=080B16&title_color=8B5CF6&icon_color=C4B5FD&text_color=FFFFFF" width="100%"/>
-</a><br/><a href="https://github.com/saaqibmohiddin">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=saaqibmohiddin&hide_border=true&background=080B16&ring=8B5CF6&fire=C4B5FD&currStreakLabel=C4B5FD&sideLabels=FFFFFF&dates=AAAAAA&currStreakNum=FFFFFF&sideNums=FFFFFF" width="100%"/>
-</a><br/>DEVELOPMENT • INNOVATION • INTELLIGENCE
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=100&color=0:080B16,45:252044,100:8B5CF6&text=THE%20DEVELOPER%20BEHIND%20CINESHIELD&fontColor=FFFFFF&fontSize=20&fontAlignY=50" width="100%" />
+</p><h2 align="center">MOHAMMED SAAQIB MOHIDDIN</h2><p align="center">
+  <img src="https://img.shields.io/badge/EDUCATION-COMPUTER%20SCIENCE%20%26%20ENGINEERING-252044?style=for-the-badge&labelColor=080B16" />
+</p><p align="center">
+  <img src="https://img.shields.io/badge/SPECIALIZATION-ARTIFICIAL%20INTELLIGENCE-8B5CF6?style=for-the-badge&labelColor=080B16" />
+</p><br><p align="center">
+  <img src="https://img.shields.io/badge/01-AI%20ENGINEERING-8B5CF6?style=for-the-badge&labelColor=080B16" />
+  <img src="https://img.shields.io/badge/02-PYTHON%20DEVELOPMENT-252044?style=for-the-badge&labelColor=080B16" />
+  <img src="https://img.shields.io/badge/03-DIGITAL%20FORENSICS-8B5CF6?style=for-the-badge&labelColor=080B16" />
+</p><br><p align="center">
+  <a href="https://github.com/saaqibmohiddin">
+    <img src="https://img.shields.io/badge/VISIT%20MY%20GITHUB%20PROFILE-8B5CF6?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p><br><p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=saaqibmohiddin&show_icons=true&hide_border=true&bg_color=080B16&title_color=8B5CF6&icon_color=C4B5FD&text_color=FFFFFF&ring_color=8B5CF6" width="90%" />
+</p><p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=65&color=0:080B16,50:252044,100:8B5CF6&text=DEVELOPMENT%20%E2%80%A2%20INNOVATION%20%E2%80%A2%20INTELLIGENCE&fontColor=FFFFFF&fontSize=15" width="100%" />
+</p>
 
 </div>---
 
