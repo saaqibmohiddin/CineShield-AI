@@ -380,8 +380,6 @@ To develop a modern digital investigation environment that makes movie-related e
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=85&color=0:080B18,45:30205F,100:8957F5&text=PROTECT%20THE%20FRAME&fontColor=FFFFFF&fontSize=25&fontAlignY=50" width="100%"/><br/><img src="https://img.shields.io/badge/SECURITY-DIGITAL%20FORENSICS-8957F5?style=for-the-badge&labelColor=090B18"/>
 <img src="https://img.shields.io/badge/ACCESS-AUTHORIZED-30205F?style=for-the-badge&labelColor=090B18"/><br/><br/>
 
-◈ SECURITY & RESPONSIBLE USAGE
-
 </div>CineShield AI is intended for authorized investigation, educational development and legitimate digital evidence management.
 
 ---
@@ -418,13 +416,11 @@ To develop a modern digital investigation environment that makes movie-related e
 <td align="center" bgcolor="#8957F5"><b>06</b></td>
 <td bgcolor="#101020"><b>SECURITY TESTING</b><br/>The project should undergo security testing before real-world deployment.</td>
 </tr>
-</table>---
+</table>
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=75&color=0:8957F5,50:30205F,100:080B18&text=TRACE%20THE%20SOURCE.%20SECURE%20THE%20EVIDENCE.&fontColor=FFFFFF&fontSize=15&fontAlignY=50" width="100%"/><br/>◈ C I N E S H I E L D  A I ◈
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=75&color=0:8957F5,50:30205F,100:080B18&text=TRACE%20THE%20SOURCE.%20SECURE%20THE%20EVIDENCE.&fontColor=FFFFFF&fontSize=15&fontAlignY=50" width="100%"/><br/>C I N E S H I E L D - A I 
 
-INTELLIGENCE WITH INTEGRITY.
 
-INVESTIGATION WITH PURPOSE.
 
 </div>
 
