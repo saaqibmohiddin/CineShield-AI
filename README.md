@@ -452,7 +452,7 @@ SPECIALIZATION IN ARTIFICIAL INTELLIGENCE
 
 </div>---
 
-## ◈ EXPLORE & CONNECT
+## 15 - EXPLORE & CONNECT
 </h2>
 
 <p align="center">
