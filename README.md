@@ -375,18 +375,32 @@ To develop a modern digital investigation environment that makes movie-related e
 
 ---
 
-11 — SECURITY & RESPONSIBLE USAGE
+## 11 — SECURITY & RESPONSIBLE USAGE
 
-CineShield AI is intended for authorized investigation, educational development and legitimate digital evidence management.
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=90&color=0:080B18,50:35206B,100:8957F5&text=SECURITY%20%26%20RESPONSIBLE%20USAGE&fontColor=FFFFFF&fontSize=20&fontAlignY=50" width="100%"/><br/>"Security" (https://img.shields.io/badge/SECURITY-RESPONSIBLE%20USAGE-8957F5?style=for-the-badge)
+"Purpose" (https://img.shields.io/badge/PURPOSE-DIGITAL%20FORENSICS-211B45?style=for-the-badge)
 
-Important considerations:
+</div>CineShield AI is intended for authorized investigation, educational development and legitimate digital evidence management.
 
-- Only examine media files that you are legally authorized to access.
-- Preserve original evidence files wherever possible.
-- Maintain appropriate investigation documentation.
-- Treat automated or hash-based results as technical observations requiring human review.
-- The included hashing and validation helpers are not a substitute for production-grade authentication, encryption, access control or forensic chain-of-custody procedures.
-- The project should undergo security testing before real-world deployment.
+◈ IMPORTANT CONSIDERATIONS
+
+SECURITY PRINCIPLE| GUIDELINE
+01 — Authorized Access| Only examine media files that you are legally authorized to access.
+02 — Evidence Preservation| Preserve original evidence files wherever possible.
+03 — Documentation| Maintain appropriate investigation documentation.
+04 — Human Verification| Treat automated or hash-based results as technical observations requiring human review.
+05 — Security Limitations| The included hashing and validation helpers are not a substitute for production-grade authentication, encryption, access control or forensic chain-of-custody procedures.
+06 — Security Testing| The project should undergo security testing before real-world deployment.
+
+<div align="center">---
+
+PROTECT THE FRAME.
+
+TRACE THE SOURCE. SECURE THE EVIDENCE.
+
+* C I N E S H I E L D  A I *
+
+</div>
 
 ---
 
