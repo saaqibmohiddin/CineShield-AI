@@ -25,20 +25,32 @@ An intelligent movie investigation and digital evidence management platform desi
 
 One platform. Multiple investigation modules. One structured digital evidence workflow.
 
-</div>01 — PROJECT OVERVIEW
+</div>
 
-CineShield AI is a movie investigation and digital evidence management project designed to provide a centralized environment for examining movie-related information, comparing authorized media samples, maintaining cryptographic file fingerprints and organizing investigation records.
+## 01 — PROJECT OVERVIEW
 
-The project combines:
+<div align="center">
 
-- A Python-based Streamlit application.
-- An interactive HTML, CSS and JavaScript browser interface.
-- An SQLite database for structured local data storage.
-- SHA-256 cryptographic hashing for file fingerprinting.
-- Investigation records and evidence management.
-- Case organization and report generation.
+### 🛡️ CineShield AI
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=65&color=0:11182B,50:252044,100:8B5CF6&text=INTELLIGENCE%20%7C%20INTEGRITY%20%7C%20INVESTIGATION&fontSize=17&fontColor=FFFFFF" width="100%"/></div>
+**DIGITAL FORENSICS & MEDIA INVESTIGATION**
+
+An intelligent platform for media verification,
+SHA-256 file comparison and digital evidence management.
+
+| MEDIA ANALYSIS | FILE SECURITY | CASE MANAGEMENT |
+|:---:|:---:|:---:|
+| 🎬 Media | 🔐 SHA-256 | 📁 Evidence |
+
+</div>
+
+<div align="center">
+
+![Theme](https://img.shields.io/badge/CINESHIELD_AI-0B1020?style=for-the-badge&labelColor=111827&color=8247E5)
+
+**INTELLIGENCE  |  INTEGRITY  |  INVESTIGATION**
+
+</div>
 
 
 ## 03 — THE CINESHIELD ECOSYSTEM
