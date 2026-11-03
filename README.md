@@ -88,7 +88,10 @@ Typography| Modern, high-contrast
 Layout| Structured and minimal
 Identity| Digital Forensics Aesthetic
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=45&color=0:080B16,50:252044,100:8B5CF6&text=ONE%20DESIGN%20LANGUAGE%20ACROSS%20EVERY%20SECTION&fontSize=14&fontColor=FFFFFF" width="100%"/></div>## 03 — THE CINESHIELD ECOSYSTEM
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=45&color=0:080B16,50:252044,100:8B5CF6&text=ONE%20DESIGN%20LANGUAGE%20ACROSS%20EVERY%20SECTION&fontSize=14&fontColor=FFFFFF" width="100%"/></div>
+
+
+## 03 — THE CINESHIELD ECOSYSTEM
 
 <table>
 <tr>
@@ -222,15 +225,26 @@ VS Code| Development environment
 
 ## 07 — SYSTEM ARCHITECTURE
 
-<div align="center">"Architecture" (https://capsule-render.vercel.app/api?type=rect&height=65&color=0:080B1C,100:8547F5&text=SYSTEM%20ARCHITECTURE&fontColor=FFFFFF&fontSize=23)
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=100&color=0:080B1C,50:32116D,100:9147FF&text=SYSTEM%20ARCHITECTURE&fontColor=FFFFFF&fontSize=28&fontAlignY=50" width="100%"/><br/><img src="https://img.shields.io/badge/FRONTEND-STREAMLIT-7047EB?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/BACKEND-PYTHON-3776AB?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/DATABASE-SQLITE-003B57?style=for-the-badge"/><br/><br/>
 
-USER → STREAMLIT → PYTHON → SQLITE → REPORT
+◈ APPLICATION FLOW
 
-"APPLICATION"　 "DATABASE"　 "SECURITY"　 "REPORTS"
+USER　➜　STREAMLIT　➜　PYTHON　➜　SQLITE
 
-"Footer" (https://capsule-render.vercel.app/api?type=rect&height=35&color=0:080B1C,100:8547F5&text=CINESHIELD%20AI&fontColor=FFFFFF&fontSize=14)
+PYTHON　➜　SHA-256 SECURITY　➜　REPORTS
 
-</div>
+<br/>◈ CORE MODULES
+
+MODULE| FUNCTION
+APP| Application
+DATABASE| Data storage
+SCANNER| File analysis
+SECURITY| SHA-256 hashing
+REPORTS| Report generation
+
+<br/><img src="https://capsule-render.vercel.app/api?type=rect&height=45&color=0:080B1C,100:9147FF&text=CINESHIELD%20AI%20%E2%80%A2%20DIGITAL%20FORENSICS&fontColor=FFFFFF&fontSize=14" width="100%"/></div>
 
 ---
 
