@@ -237,14 +237,19 @@ PYTHON　➜　SHA-256 SECURITY　➜　REPORTS
 
 <br/>◈ CORE MODULES
 
-MODULE| FUNCTION
-APP| Application
-DATABASE| Data storage
-SCANNER| File analysis
-SECURITY| SHA-256 hashing
-REPORTS| Report generation
-
-<br/><img src="https://capsule-render.vercel.app/api?type=rect&height=45&color=0:080B1C,100:9147FF&text=CINESHIELD%20AI%20%E2%80%A2%20DIGITAL%20FORENSICS&fontColor=FFFFFF&fontSize=14" width="100%"/></div>
+<div align="center"><img src="https://img.shields.io/badge/01-APPLICATION-17132B?style=for-the-badge&labelColor=54249B"/>
+<br/>
+<img src="https://img.shields.io/badge/02-DATABASE-17132B?style=for-the-badge&labelColor=54249B"/>
+<br/>
+<img src="https://img.shields.io/badge/03-FILE%20SCANNER-17132B?style=for-the-badge&labelColor=54249B"/>
+<br/>
+<img src="https://img.shields.io/badge/04-SECURITY-17132B?style=for-the-badge&labelColor=54249B"/>
+<br/>
+<img src="https://img.shields.io/badge/05-REPORT%20GENERATOR-17132B?style=for-the-badge&labelColor=54249B"/></div>- APPLICATION — Main interface
+- DATABASE — Data storage
+- SCANNER — File analysis
+- SECURITY — SHA-256 hashing
+- REPORTS — Report generation
 
 ---
 
