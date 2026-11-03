@@ -375,30 +375,49 @@ To develop a modern digital investigation environment that makes movie-related e
 
 ---
 
-## 11 — SECURITY & RESPONSIBLE USAGE
+◈ 11 — SECURITY & RESPONSIBLE USAGE
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=90&color=0:080B18,50:35206B,100:8957F5&text=SECURITY%20%26%20RESPONSIBLE%20USAGE&fontColor=FFFFFF&fontSize=20&fontAlignY=50" width="100%"/><br/>"Security" (https://img.shields.io/badge/SECURITY-RESPONSIBLE%20USAGE-8957F5?style=for-the-badge)
-"Purpose" (https://img.shields.io/badge/PURPOSE-DIGITAL%20FORENSICS-211B45?style=for-the-badge)
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=100&color=0:080B18,50:35206B,100:8957F5&text=SECURITY%20%26%20RESPONSIBLE%20USAGE&fontColor=FFFFFF&fontSize=21&fontAlignY=50" width="100%"/><br/>"Security" (https://img.shields.io/badge/SECURITY-ESSENTIAL-8957F5?style=for-the-badge)
+"Responsible Usage" (https://img.shields.io/badge/RESPONSIBLE-DIGITAL%20FORENSICS-211B45?style=for-the-badge)
 
 </div>CineShield AI is intended for authorized investigation, educational development and legitimate digital evidence management.
 
+---
+
 ◈ IMPORTANT CONSIDERATIONS
 
-SECURITY PRINCIPLE| GUIDELINE
-01 — Authorized Access| Only examine media files that you are legally authorized to access.
-02 — Evidence Preservation| Preserve original evidence files wherever possible.
-03 — Documentation| Maintain appropriate investigation documentation.
-04 — Human Verification| Treat automated or hash-based results as technical observations requiring human review.
-05 — Security Limitations| The included hashing and validation helpers are not a substitute for production-grade authentication, encryption, access control or forensic chain-of-custody procedures.
-06 — Security Testing| The project should undergo security testing before real-world deployment.
+<table>
+<tr>
+<td width="12%" align="center"><b>01</b></td>
+<td><b>AUTHORIZED ACCESS</b><br/>Only examine media files that you are legally authorized to access.</td>
+</tr>
+<tr>
+<td align="center"><b>02</b></td>
+<td><b>EVIDENCE PRESERVATION</b><br/>Preserve original evidence files wherever possible.</td>
+</tr>
+<tr>
+<td align="center"><b>03</b></td>
+<td><b>INVESTIGATION DOCUMENTATION</b><br/>Maintain appropriate investigation documentation.</td>
+</tr>
+<tr>
+<td align="center"><b>04</b></td>
+<td><b>HUMAN VERIFICATION</b><br/>Treat automated or hash-based results as technical observations requiring human review.</td>
+</tr>
+<tr>
+<td align="center"><b>05</b></td>
+<td><b>SECURITY LIMITATIONS</b><br/>The included hashing and validation helpers are not a substitute for production-grade authentication, encryption, access control or forensic chain-of-custody procedures.</td>
+</tr>
+<tr>
+<td align="center"><b>06</b></td>
+<td><b>SECURITY TESTING</b><br/>The project should undergo security testing before real-world deployment.</td>
+</tr>
+</table>---
 
-<div align="center">---
+<div align="center"><img src="https://img.shields.io/badge/PROTECT%20THE%20FRAME-8957F5?style=for-the-badge&labelColor=080B18"/>TRACE THE SOURCE. SECURE THE EVIDENCE.
 
-PROTECT THE FRAME.
+◈ C I N E S H I E L D  A I ◈
 
-TRACE THE SOURCE. SECURE THE EVIDENCE.
-
-* C I N E S H I E L D  A I *
+INTELLIGENCE WITH INTEGRITY. INVESTIGATION WITH PURPOSE.
 
 </div>
 
