@@ -222,39 +222,15 @@ VS Code| Development environment
 
 ## 07 — SYSTEM ARCHITECTURE
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=65&color=0:080B1C,100:8547F5&text=CINESHIELD%20AI%20%7C%20SYSTEM%20ARCHITECTURE&fontColor=FFFFFF&fontSize=18&fontAlignY=55" width="100%"/>APPLICATION WORKFLOW
+<div align="center">"Architecture" (https://capsule-render.vercel.app/api?type=rect&height=65&color=0:080B1C,100:8547F5&text=SYSTEM%20ARCHITECTURE&fontColor=FFFFFF&fontSize=23)
 
-"USER" → "STREAMLIT UI" → "PYTHON LOGIC" → "DATABASE & SECURITY" → "REPORTS"
+USER → STREAMLIT → PYTHON → SQLITE → REPORT
 
-</div>◈ CORE COMPONENTS
+"APPLICATION"　 "DATABASE"　 "SECURITY"　 "REPORTS"
 
-COMPONENT| PURPOSE
-"app.py"| Main application
-"database.py"| SQLite storage
-"movie_manager.py"| Movie management
-"scan_manager.py"| File investigation
-"security.py"| SHA-256 fingerprinting
-"report_generator.py"| Report generation
-"index.html"| Browser interface
-"config.py"| Application settings
+"Footer" (https://capsule-render.vercel.app/api?type=rect&height=35&color=0:080B1C,100:8547F5&text=CINESHIELD%20AI&fontColor=FFFFFF&fontSize=14)
 
-◈ PROJECT STRUCTURE
-
-CineShield-AI/
-├── app.py
-├── index.html
-├── config.py
-├── database.py
-├── movie_manager.py
-├── scan_manager.py
-├── security.py
-├── report_generator.py
-├── engines/
-├── data/
-├── requirements.txt
-└── .gitignore
-
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=45&color=0:080B1C,100:8547F5&text=INVESTIGATE%20SMARTER.%20ORGANIZE%20BETTER.&fontColor=FFFFFF&fontSize=13" width="100%"/></div>
+</div>
 
 ---
 
