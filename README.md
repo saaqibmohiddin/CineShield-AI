@@ -375,7 +375,7 @@ To develop a modern digital investigation environment that makes movie-related e
 
 ---
 
-11 — SECURITY & RESPONSIBLE USAGE
+## 11 — SECURITY & RESPONSIBLE USAGE
 
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=85&color=0:080B18,45:30205F,100:8957F5&text=PROTECT%20THE%20FRAME&fontColor=FFFFFF&fontSize=25&fontAlignY=50" width="100%"/><br/><img src="https://img.shields.io/badge/SECURITY-DIGITAL%20FORENSICS-8957F5?style=for-the-badge&labelColor=090B18"/>
 <img src="https://img.shields.io/badge/ACCESS-AUTHORIZED-30205F?style=for-the-badge&labelColor=090B18"/><br/><br/>
