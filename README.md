@@ -134,7 +134,7 @@ Structured investigation summaries and reporting.
 
 </td>
 </tr>
-</table>---
+</table>
 
 ## 04 — CORE FEATURES & MODULES
 
