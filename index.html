@@ -1,1 +1,367 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CineShield AI | Intelligent Movie Investigation</title>
+
+    <meta name="description" content="CineShield AI - A movie investigation and evidence management application built with Python and Streamlit.">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #080d1a;
+            color: #e8eeff;
+            line-height: 1.6;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 22px 8%;
+            border-bottom: 1px solid #263b65;
+        }
+
+        .logo {
+            font-size: 23px;
+            font-weight: bold;
+            color: #ffffff;
+        }
+
+        .logo span {
+            color: #9270ff;
+        }
+
+        nav a {
+            color: #d6ddf0;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .hero {
+            min-height: 570px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 80px 20px;
+            background:
+                radial-gradient(ellipse at top, #252052 0%, #080d1a 65%);
+        }
+
+        .tag {
+            color: #b9a5ff;
+            border: 1px solid #6548b9;
+            padding: 7px 18px;
+            border-radius: 30px;
+            font-size: 12px;
+            letter-spacing: 2px;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            font-size: clamp(38px, 7vw, 72px);
+            line-height: 1.1;
+            margin-bottom: 22px;
+        }
+
+        h1 span {
+            color: #9878ff;
+        }
+
+        .hero p {
+            max-width: 650px;
+            color: #b9c4dc;
+            font-size: 17px;
+            margin-bottom: 32px;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 13px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .primary {
+            background: #7048e8;
+            color: white;
+        }
+
+        .primary:hover {
+            background: #8968ff;
+            transform: translateY(-3px);
+        }
+
+        .secondary {
+            border: 1px solid #53658c;
+            color: white;
+        }
+
+        .secondary:hover {
+            background: #172442;
+        }
+
+        section {
+            padding: 75px 8%;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 34px;
+            margin-bottom: 15px;
+        }
+
+        .section-description {
+            text-align: center;
+            color: #aab7d1;
+            max-width: 650px;
+            margin: 0 auto 45px;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 22px;
+        }
+
+        .card {
+            background: #111c32;
+            border: 1px solid #263b65;
+            padding: 28px;
+            border-radius: 14px;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: #8060ed;
+        }
+
+        .card .icon {
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+
+        .card p {
+            color: #aab7d1;
+            font-size: 14px;
+        }
+
+        .about {
+            background: #0d1528;
+            text-align: center;
+        }
+
+        .about p {
+            max-width: 750px;
+            margin: auto;
+            color: #b9c4dc;
+        }
+
+        .tech {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 30px;
+        }
+
+        .tech span {
+            padding: 9px 17px;
+            border-radius: 7px;
+            background: #172442;
+            border: 1px solid #344b75;
+            color: #cbbdff;
+            font-size: 14px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 15px;
+            border-top: 1px solid #263b65;
+            color: #8795b2;
+            font-size: 13px;
+        }
+
+        footer a {
+            color: #a88cff;
+            text-decoration: none;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                padding: 18px 5%;
+            }
+
+            section {
+                padding: 55px 6%;
+            }
+
+            .hero {
+                min-height: 500px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">CINE<span>SHIELD</span> AI</div>
+        <a href="https://github.com/saaqibmohiddin/CineShield-AI"
+           target="_blank">GitHub ↗</a>
+    </nav>
+
+    <header class="hero">
+        <div class="tag">PYTHON • STREAMLIT • INVESTIGATION</div>
+
+        <h1>Welcome to <span>CineShield AI</span></h1>
+
+        <p>
+            A movie investigation and evidence management application
+            designed to organize movie records, investigations,
+            digital evidence and case information in one place.
+        </p>
+
+        <div class="buttons">
+            <a class="btn primary"
+               href="https://github.com/saaqibmohiddin/CineShield-AI"
+               target="_blank">
+                Explore on GitHub ↗
+            </a>
+
+            <a class="btn secondary"
+               href="https://github.com/saaqibmohiddin/CineShield-AI/blob/main/app.py"
+               target="_blank">
+                View Source Code
+            </a>
+        </div>
+    </header>
+
+    <section>
+        <h2 class="section-title">Project Features</h2>
+
+        <p class="section-description">
+            Explore the main management modules available in CineShield AI.
+        </p>
+
+        <div class="features">
+
+            <div class="card">
+                <div class="icon">🎬</div>
+                <h3>Movie Management</h3>
+                <p>
+                    Organize movie information and maintain
+                    movie reference records.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">🔍</div>
+                <h3>Investigation Records</h3>
+                <p>
+                    Maintain investigation information,
+                    uploaded filenames and scan results.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">🛡️</div>
+                <h3>Evidence Management</h3>
+                <p>
+                    Store evidence records, file hashes
+                    and investigation notes.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">📁</div>
+                <h3>Case Management</h3>
+                <p>
+                    Organize cases with priority,
+                    investigator and status information.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">📊</div>
+                <h3>Reports & Records</h3>
+                <p>
+                    Maintain organized records and
+                    investigation-related information.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icon">🔐</div>
+                <h3>Security</h3>
+                <p>
+                    Built with Python security-related
+                    functionality and data management.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="about">
+        <h2 class="section-title">About CineShield AI</h2>
+
+        <p>
+            CineShield AI is a Python-based project developed
+            using Streamlit and SQLite. It brings movie
+            management, investigation records, evidence
+            organization and case management together
+            in a single application.
+        </p>
+
+        <div class="tech">
+            <span>Python</span>
+            <span>Streamlit</span>
+            <span>SQLite</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>GitHub</span>
+        </div>
+    </section>
+
+    <footer>
+        <p>
+            © 2026 CineShield AI | Developed as a project.
+        </p>
+        <p>
+            <a href="https://github.com/saaqibmohiddin"
+               target="_blank">
+                GitHub Profile
+            </a>
+        </p>
+    </footer>
+
+</body>
+</html>
+
