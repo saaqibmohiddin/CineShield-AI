@@ -205,31 +205,32 @@ STAGE| PROCESS| PURPOSE
 
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=55&color=0:11182B,50:252044,100:8B5CF6&text=ACCURACY%20%7C%20TRACEABILITY%20%7C%20EVIDENCE%20INTEGRITY&fontSize=15&fontColor=FFFFFF" width="100%"/></div>
 
-06 — TECHNOLOGY STACK
+<h2 align="center">06 — TECHNOLOGY STACK</h2>
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=85&color=0:090B1C,45:30105F,100:9147FF&text=TECHNOLOGY%20STACK&fontColor=FFFFFF&fontSize=26" width="100%"/><br/>01 — DEVELOPMENT
+<p align="center">
+  <img src="https://img.shields.io/badge/CINESHIELD--AI-TECH_STACK-7139D8?style=for-the-badge&labelColor=080B1A"/>
+</p>
 
-"Python" (https://img.shields.io/badge/PYTHON-17132B?style=flat-square&logo=python&logoColor=white)
-"Streamlit" (https://img.shields.io/badge/STREAMLIT-17132B?style=flat-square&logo=streamlit&logoColor=white)
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,html,css,js,sqlite,git,github,vscode&theme=dark"/>
+</p>
 
-02 — DATABASE
+<p align="center">
+  <b>CORE TECHNOLOGIES</b>
+</p>
 
-"SQLite" (https://img.shields.io/badge/SQLITE-17132B?style=flat-square&logo=sqlite&logoColor=white)
+| Technology | Purpose |
+|:---|:---|
+| Python | Application Logic |
+| Streamlit | User Interface |
+| SQLite | Data Storage |
+| HTML, CSS, JavaScript | Web Interface |
+| SHA-256 | File Integrity |
+| Git & GitHub | Version Control |
 
-03 — WEB TECHNOLOGIES
-
-"HTML5" (https://img.shields.io/badge/HTML5-17132B?style=flat-square&logo=html5&logoColor=white)
-"CSS3" (https://img.shields.io/badge/CSS3-17132B?style=flat-square&logo=css3&logoColor=white)
-"JavaScript" (https://img.shields.io/badge/JAVASCRIPT-17132B?style=flat-square&logo=javascript&logoColor=white)
-
-04 — SECURITY & TOOLS
-
-"SHA256" (https://img.shields.io/badge/SHA--256-17132B?style=flat-square)
-"Git" (https://img.shields.io/badge/GIT-17132B?style=flat-square&logo=git&logoColor=white)
-"GitHub" (https://img.shields.io/badge/GITHUB-17132B?style=flat-square&logo=github&logoColor=white)
-"VSCode" (https://img.shields.io/badge/VS%20CODE-17132B?style=flat-square&logo=visualstudiocode&logoColor=white)
-
-<br/><img src="https://capsule-render.vercel.app/api?type=rect&height=42&color=0:090B1C,100:9147FF&text=CINESHIELD%20AI%20%7C%20BUILT%20FOR%20DIGITAL%20FORENSICS&fontColor=FFFFFF&fontSize=12" width="100%"/></div>
+<p align="center">
+  <img src="https://img.shields.io/badge/BUILT_FOR-DIGITAL_FORENSICS-7139D8?style=for-the-badge&labelColor=080B1A"/>
+</p>
 
 ---
 
