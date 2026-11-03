@@ -136,41 +136,46 @@ Structured investigation summaries and reporting.
 </tr>
 </table>---
 
-04 — CORE FEATURES & MODULES
+## 04 — CORE FEATURES & MODULES
 
-<div align="center"><img src="https://img.shields.io/badge/01-MEDIA%20INVESTIGATION-8B5CF6?style=for-the-badge"/>
-</div>A. Media Investigation
+<p align="center">
+  <img src="https://img.shields.io/badge/CINESHIELD--AI-CORE_MODULES-7139D8?style=for-the-badge&labelColor=080B1A"/>
+</p>01 — MEDIA INVESTIGATION
 
-MODULE| CAPABILITIES
-🎬 Movie Registry| Movie registration, language, release year and reference fingerprints.
-🔍 Scan Center| File uploads, SHA-256 generation and exact hash comparison.
-🎞️ Video Forensics| Video file examination and fingerprint generation.
-🎧 Audio Forensics| Audio file examination and fingerprint generation.
+<p>
+  <img src="https://img.shields.io/badge/MEDIA-7139D8?style=flat-square"/>
+  <img src="https://img.shields.io/badge/FORENSICS-7139D8?style=flat-square"/>
+</p>- 🎬 Movie Registry
+- 🔍 Scan Center
+- 🎞️ Video Forensics
+- 🎧 Audio Forensics
 
-<div align="center"><img src="https://img.shields.io/badge/02-DIGITAL%20EVIDENCE%20%26%20INTELLIGENCE-8B5CF6?style=for-the-badge"/></div>B. Digital Evidence & Intelligence
+02 — DIGITAL EVIDENCE & INTELLIGENCE
 
-MODULE| CAPABILITIES
-🔐 Evidence Vault| Evidence descriptions, records and SHA-256 fingerprints.
-📁 Case Management| Investigation cases, priorities and status.
-💧 Watermark Center| Watermark identifiers and distribution-related records.
-🌐 Source Discovery| Source URLs, platforms and observations.
-👤 Uploader Intelligence| Uploader and profile-related information.
-🌍 Global Intelligence| Country, region and language information.
-🔗 Network Analysis| Investigation relationships and supporting observations.
+<p>
+  <img src="https://img.shields.io/badge/EVIDENCE-7139D8?style=flat-square"/>
+  <img src="https://img.shields.io/badge/INTELLIGENCE-7139D8?style=flat-square"/>
+</p>- 🔐 Evidence Vault & Case Management
+- 💧 Watermark Center
+- 🌐 Source & Network Discovery
+- 👤 Uploader & Global Intelligence
 
-<div align="center"><img src="https://img.shields.io/badge/03-ANALYTICS%20%26%20MANAGEMENT-8B5CF6?style=for-the-badge"/></div>C. Analytics & Management
+03 — ANALYTICS & MANAGEMENT
 
-MODULE| CAPABILITIES
-🤖 Investigation Assistant| Keyword-based searching of locally stored records.
-📊 Risk Prediction| Investigation priority and case information review.
-📄 Forensic Reports| Investigation summaries and report generation.
-🔔 Alert Center| Scan activity and high-priority case information.
-🏢 Organization Management| Organization records and contact information.
-🌐 Multilingual Intelligence| Language-related movie information.
-📡 Distribution Intelligence| Distributor, recipient and regional records.
-⚙️ Admin Settings| Application management workspace.
+<p>
+  <img src="https://img.shields.io/badge/ANALYTICS-7139D8?style=flat-square"/>
+  <img src="https://img.shields.io/badge/MANAGEMENT-7139D8?style=flat-square"/>
+</p>- 🤖 Investigation Assistant
+- 📊 Risk & Alert Management
+- 📄 Forensic Reports
+- 🌍 Multilingual & Distribution Intelligence
+- ⚙️ Organization & Admin Settings
 
-Note: Module names describe the application workspace. Their presence does not imply that external intelligence integrations, automated AI classification or production-grade detection are implemented.
+<p align="center">
+  <img src="https://img.shields.io/badge/INVESTIGATE-ORGANIZE-REPORT-7139D8?style=for-the-badge&labelColor=080B1A"/>
+</p><p align="center">
+  <sub>Module availability represents the implemented application features; external intelligence integrations are not implied.</sub>
+</p>
 
 ---
 
